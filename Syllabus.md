@@ -1,7 +1,7 @@
 # IS 505 Python for Business Analytics
 *Fall 2017*
 ## Course Description
->In this course, we introduce Python as a language and tool for collecting, preprocessing, and visualizing data for business analytics. Since Python is one of the most popular programming languages (along with R) in data mining and business analytics, its fundamental programming logic and knowledge is essential for students to apply in data mining and to succeed in the job market. Specifically, this course focuses on the data-engineering phase, which includes collecting, preprocessing, and visualizing data, with respect to applications in business modeling, optimization, and statistical analysis. In addition, a number of mini projects will be used as vehicles to cover the main applications of data analytics, including recommender systems, text analytics, and web analytics.
+This course introduces Python as a language and tool for collecting, preprocessing, and visualizing data for business analytics. Long a favorite language among data scientists and business analysts, Python is an essential skill with applications in business modeling, optimization,  statistical analysis, deep learning, and big data analytics. Starting with a review of the fundamental programming concepts, the course builds mastery of Python language, libraries, and tools through short lectures and online tutorials. The course concludes with a final project designed to demonstrate mastery of the subject.   
 
 ## Learning Objectives
 
@@ -14,11 +14,11 @@
 ### Practice
 * To write Python scripts of intermediate length and complexity
 * To design and use custom data structures using built-in and third-party data types
-* To integrate and use popular Python libraries like Numpy, Pandas, MatPlotLib, etc.
-* To master a professional-level data science software toolkit
+* To introduce and use popular third-party Python libraries like NumPy, Pandas, MatPlotLib, etc.
+* To master a professional-level data science software toolkit with Anaconda, Jupyter, GitHub, etc.
 
 ## Instructor
->Christopher L. Huntley  
+Christopher L. Huntley  
 Dolan School of Business, Room 1122  
 Email: chuntley@fairfield.edu  
 
@@ -31,8 +31,12 @@ Email: chuntley@fairfield.edu
 * **Textbook:** Downey, Allen. Think Python: How to Think Like a Computer Scientist (Second Edition). O'Reilly Media Inc., 2015. We will be using the [free interactive edition](https://runestone.academy/runestone/static/thinkcspy/index.html) from Runestone Academy.
 * **Online Tutorials:** [Data Camps’s Online Python Courses](https://www.datacamp.com)
 * **Software:** Anaconda (Python, Spyder, Jupyter, etc.) and GitHub Desktop (source code management and collaboration)
+* **Reference Docs:** The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM).
 * **Hardware:** Each student is expected to bring to class a recent-vintage laptop to class. The student must have admin rights to install software, manage ports, and set file permissions. The laptop should have at least 5GB of free space.
-* **Web:** All assignments are available in GitHub Classroom.
+* **Websites:**  
+    * Class documents (including this syllabus) are [Dr. Huntley's is505-docs GitHub repository](https://github.com/christopherhuntley/is505-docs). For printable
+    * Programing assignments are posted and managed in [GitHub Classroom](https://classroom.github.com/classrooms/29896723-is-505-fall-2017).
+    * Blackboard will be used for weekly agendas and quizzes.
 
 ## Student Expectations
 This is a graduate class intended for serious professionals:
@@ -60,13 +64,13 @@ Given the large class enrollment and the technical nature of the subject, it is 
 
 | Date | Topics          | Classwork | Homework |
 |------|-----------------|-----------|----------|
-| 9/5  | Course Intro, Software Tools, Python Fundamentals | Software Setup<br>**RSI** 1,2 | **RSI** 3,4,10 <br> **DC** "Python Basics," "Python Lists" <br> *Study for Quiz 1* |
-| **9/9** | Programming Logic & Data Types | **Quiz 1: Foundations ** <br> **RSI** 5-9 <br> Health Stats Part 1| **DC** "Functions and Packages" <br> *Study for Quiz 2*|
-| 9/12 | Data Structures | **Quiz 2: Logic & Data Structures** <br> **RSI**  11,12 <br> Health Stats Part 2| **DC** "NumPy" |
-| 9/19 | NumPy |  Health Stats Part 3| **DC** "Matplotlib", "Dictionaries & Pandas" <br> *Study for Quiz 3* |
-| **9/23** | Pandas | **Quiz 3: Numpy** <br> Health Stats Part 4 <br> **DC** "Logic, Control Flow and Filtering," "Loops" | **DC** "Case Study: Hacker Statistics"<br> *Study for Quiz 4* |
-| 9/26 | Data APIs | **Quiz 4: Pandas** <br> Health Stats Part 5 | **DC** "Python Data Science Toolbox (Part 1)" |
-| 10/3 | Bulletproofing with Custom Modules | **RSI** 16-17 <br> Health Stats Part 6 | <br> *Study for Quiz 5* |
-| **10/7** | Project Kickoff | **Quiz 5: Custom Modules** <br> Form teams and start work on the Final Project | |
-| 10/10 | Project Workshop | Review (in writing) two other team's projects | Commit Final Project Reports to GitHub |
+| 9/5  | Course Intro & Preliminaries <br> Python Fundamentals | Software Setup<br>**RSI** 1,2 | **RSI** 3,4,10 <br> **DC** "Python Basics," "Python Lists" <br> *Study for Quiz 1* |
+| **9/9** | Programming Logic & Data Types <br> Jupyter Notebooks | **Quiz 1: Foundations ** <br> **RSI** 5-9 <br> Health Stats Part 1| **DC** "Functions and Packages" <br> *Study for Quiz 2* |
+| 9/12 | Data Structures | **Quiz 2: Jupyter and GitHub ** <br> **RSI**  11,12 <br> Health Stats Part 2| **DC** "NumPy" <br> *Study for Quiz 3* |
+| 9/19 | NumPy | **Quiz 3: Logic & Data Structures** <br> Health Stats Part 3| **DC** "Matplotlib", "Dictionaries & Pandas" <br> *Study for Quiz 3* |
+| **9/23** | Pandas | **Quiz 4: Numpy** <br> Health Stats Part 4 <br> **DC** "Logic, Control Flow and Filtering," "Loops" | **DC** "Case Study: Hacker Statistics" <br> *Study for Quiz 5*|
+| 9/26 | Data APIs | **Quiz 5: Pandas** <br> Health Stats Part 5 | **DC** "Python Data Science Toolbox (Part 1)"|
+| 10/3 | Bulletproofing Jupyter with Custom Modules (and other tips) | **RSI** 15 <br> Health Stats Part 6 |  |
+| **10/7** | Project Kickoff |  Form teams and start work on the Final Project | |
+| 10/10 | Project Workshop | Review (face-to-face and in writing) two other team's projects | Commit Final Project Notebooks to GitHub |
 | 10/17 | Team Project Presentations: 10-minutes per team | Peer reviews for each presentation |||
