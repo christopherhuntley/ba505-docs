@@ -25,7 +25,7 @@ Email: chuntley@fairfield.edu
 ## Office Hours
   * Tuesdays 11am-noon & 5:00-6:15pm
   * Fridays 2:00-3:30pm  
-  Other times are by appointment only. However, email works well, especially when the instructor is otherwise unavailable.
+  * Other times are by appointment only. However, email works well, especially when the instructor is otherwise unavailable.
 
 ## Resources
 * **Textbook:** Downey, Allen. Think Python: How to Think Like a Computer Scientist (Second Edition). O'Reilly Media Inc., 2015. We will be using the [free interactive edition](https://runestone.academy/runestone/static/thinkcspy/index.html) from Runestone Academy.
