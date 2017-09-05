@@ -65,8 +65,8 @@ Given the large class enrollment and the technical nature of the subject, it is 
 | Date | Topics          | Classwork | Homework |
 |------|-----------------|-----------|----------|
 | 9/5  | Course Intro & Preliminaries <br> Python Fundamentals | Software Setup<br>**RSI** 1,2 | **RSI** 3,4,10 <br> **DC** "Python Basics," "Python Lists" <br> *Study for Quiz 1* |
-| **9/9** | Programming Logic & Data Types <br> Jupyter Notebooks | **Quiz 1: Foundations ** <br> **RSI** 5-9 <br> Health Stats Part 1| **DC** "Functions and Packages" <br> *Study for Quiz 2* |
-| 9/12 | Data Structures | **Quiz 2: Jupyter and GitHub ** <br> **RSI**  11,12 <br> Health Stats Part 2| **DC** "NumPy" <br> *Study for Quiz 3* |
+| **9/9** | Programming Logic & Data Types <br> Jupyter Notebooks | **Quiz 1: Foundations** <br> **RSI** 5-9 <br> Health Stats Part 1| **DC** "Functions and Packages" <br> *Study for Quiz 2* |
+| 9/12 | Data Structures | **Quiz 2: Jupyter and GitHub** <br> **RSI**  11,12 <br> Health Stats Part 2| **DC** "NumPy" <br> *Study for Quiz 3* |
 | 9/19 | NumPy | **Quiz 3: Logic & Data Structures** <br> Health Stats Part 3| **DC** "Matplotlib", "Dictionaries & Pandas" <br> *Study for Quiz 3* |
 | **9/23** | Pandas | **Quiz 4: Numpy** <br> Health Stats Part 4 <br> **DC** "Logic, Control Flow and Filtering," "Loops" | **DC** "Case Study: Hacker Statistics" <br> *Study for Quiz 5*|
 | 9/26 | Data APIs | **Quiz 5: Pandas** <br> Health Stats Part 5 | **DC** "Python Data Science Toolbox (Part 1)"|
