@@ -1,7 +1,5 @@
-# Weekly Agendas
-__Fall 2017__
-
-## September 5
+# Class Agenda
+## September 5, 2017
 1. Introductions
 2. [Course Overview & Setup](../Slides/L0_Course_Introduction.pdf)
 3. [Python Fundamentals](../Slides/L1_Python_fundamentals.pdf)
