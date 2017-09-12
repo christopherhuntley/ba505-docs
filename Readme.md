@@ -2,6 +2,7 @@
 _Fall 2017_
 
 * [Syllabus](Syllabus.md)
+* [Agendas](Agenda)
 * [Lectures](Slides)
 * [Tutorials](Tutorials)
 * [Downloads](Downloads)
