@@ -4,7 +4,7 @@
 3. [Quiz 2](https://docs.google.com/forms/d/e/1FAIpQLSeTshc-bCNdM5fLhAbohh6ekiEUzMKzPlfVx39wKAEGFsgxgg/viewform?usp=sf_link)
 4. [Lists, Files, and Dictionaries](../Slides/L5_Lists_Files_Dictionaries.pdf)
 5. Classwork and Homework
-  * Health Stats Part 2
+  * [Health Stats Part 2](https://classroom.github.com/a/Y1Tb38qV)
   * RSI Ch 11, 12
   * Data Camp "Numpy"
   * Study for Quiz 3
