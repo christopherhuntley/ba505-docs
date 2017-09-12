@@ -1,6 +1,6 @@
 ## September 12, 2017
 1. Quiz 1 results
-2. [Standard Data Types](../Slides/L4_Standard_Data_Typess.pdf)
+2. [Standard Data Types](../Slides/L4_Standard_Data_Types.pdf)
 3. [Quiz 2](https://docs.google.com/forms/d/e/1FAIpQLSeTshc-bCNdM5fLhAbohh6ekiEUzMKzPlfVx39wKAEGFsgxgg/viewform?usp=sf_link)
 4. [Lists, Files, and Dictionaries](../Slides/L5_Lists_Files_Dictionaries.pdf)
 5. Classwork and Homework
