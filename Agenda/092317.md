@@ -3,6 +3,6 @@
 2. Health Stats Part 3
 2. [Pandas](../Slides/L7_Pandas.pdf)
 3. Classwork and Homework
-  * Health Stats Part 4
+  * [Health Stats Part 4](https://classroom.github.com/a/kPdq5LS5)
   * Assigned Data Camp modules
   * Study for Quiz 4
