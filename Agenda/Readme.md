@@ -3,4 +3,4 @@
 2. Bulletproofing Tips
 3. Classwork and Homework
   * [Final Project](FinalProjects/Fall2017.md). You will also get a project invite in GitHub Classroom.
-  * Study for Quiz 5, which will cover Jupyter, GitHub, and the [Reproducible Data Analysis in Jupyter] (https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter) videos.
+  * Study for Quiz 5, which will cover Jupyter, GitHub, and the [Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter) videos.
