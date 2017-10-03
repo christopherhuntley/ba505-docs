@@ -2,5 +2,5 @@
 1. Present Health Stats Part 5
 2. Bulletproofing Tips
 3. Classwork and Homework
-  * [Final Project](FinalProjects/Fall2017.md). You will also get a project invite in GitHub Classroom.
+  * [Final Project](FinalProjects/Fall2017.md). You will also get a [project invitation in GitHub Classroom](https://classroom.github.com/g/_MZliET-). Each team must have 3 students (unless explicit permission is given by the instructor).
   * Study for Quiz 5, which will cover Jupyter, GitHub, and the [Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter) videos.
