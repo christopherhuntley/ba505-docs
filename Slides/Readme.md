@@ -1,2 +1,2 @@
-* [LO Course Introduction](L0_Course_Introduction.pdf)
-* [L1 Python Fundamentals](L1_Python_Fundamentals.pdf)
+* [LO Course Introduction](https://docs.google.com/presentation/d/1rtWhd2PIU48BLYqmANxlkTkuZBDpC5WjsWkmp8TzJQE/edit?usp=sharing)
+* [L1 Python Preliminaries](L1_Python_Preliminaries.slides.html)
