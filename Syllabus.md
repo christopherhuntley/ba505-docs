@@ -1,5 +1,5 @@
 # IS 505 Python for Business Analytics
-*Fall 2017*
+*Fall 2018*
 ## Course Description
 This course introduces Python as a language and tool for collecting, preprocessing, and visualizing data for business analytics. Long a favorite language among data scientists and business analysts, Python is an essential skill with applications in business modeling, optimization,  statistical analysis, deep learning, and big data analytics. Starting with a review of the fundamental programming concepts, the course builds mastery of Python language, libraries, and tools through short lectures and online tutorials. The course concludes with a final project designed to demonstrate mastery of the subject.   
 
@@ -58,19 +58,23 @@ Given the large class enrollment and the technical nature of the subject, it is 
 * Dates and assignments are subject to change, usually with one week's notice.
 * **Classwork** is to be completed before leaving class.
 * **Homework** is to be completed before the next class.
-* Saturday classes are shown **in bold**.
 * **RSI** refers to [Runestone Academy's version](https://runestone.academy/runestone/static/thinkcspy/index.html) of the *How to Think Like a Computer Scientist* book.
 * **DC** refers to [Data Camp's Data Analyst Courses](https://www.datacamp.com/courses).
 
 | Date | Topics          | Classwork | Homework |
 |------|-----------------|-----------|----------|
-| 9/5  | Course Intro & Preliminaries <br> Python Fundamentals | Software Setup<br>**RSI** 1,2 | **RSI** 3,4,10 <br> **DC** "Python Basics," "Python Lists" <br> *Study for Quiz 1* |
-| **9/9** | Programming Logic & Data Types <br> Jupyter Notebooks | **Quiz 1: Foundations** <br> **RSI** 5-9 <br> Health Stats Part 1| **DC** "Functions and Packages" <br> *Study for Quiz 2* |
-| 9/12 | Data Structures | **Quiz 2: Jupyter and GitHub** <br> **RSI**  11,12 <br> Health Stats Part 2| **DC** "NumPy" <br> *Study for Quiz 3* |
-| 9/19 | NumPy | **Quiz 3: Logic & Data Structures** <br> Health Stats Part 3| **DC** "Matplotlib", "Dictionaries & Pandas" <br> *Study for Quiz 3* |
-| **9/23** | Pandas | **Quiz 4: Numpy** <br> Health Stats Part 4 <br> **DC** "Logic, Control Flow and Filtering," "Loops" | **DC** "Case Study: Hacker Statistics" <br> *Study for Quiz 5*|
-| 9/26 | Data APIs | **Quiz 5: Pandas** <br> Health Stats Part 5 | **DC** "Python Data Science Toolbox (Part 1)"|
-| 10/3 | Bulletproofing Jupyter with Custom Modules (and other tips) | **RSI** 15 <br> Health Stats Part 6 |  |
-| **10/7** | Project Kickoff |  Form teams and start work on the Final Project | |
-| 10/10 | *No class, extended Fall Break* | | Commit Final Project Notebooks to GitHub |
-| 10/17 | Team Project Presentations: 10-minutes per team | Peer reviews for each presentation |||
+| 9/4  | Course Intro & Preliminaries | Software Setup<br>**RSI** 1-2 | **RSI** 3,4 <br> **DC** "Python Basics" |
+| 9/11 | Python Language Primer | JupyerLab Practice <br> **DC** Git "Basic Workflow" | **DC** "Python Lists" <br>**RSI** 5-8 <br> *Study for Quiz 1* |
+| 9/18 | **Quiz 1: Foundations**<br>Control Flow: Blocks, Conditionals, and Loops<br>Code Structure: Packages, Modules, and Functions | Health Stats Part 1 | **DC** "Functions and Packages" <br>**RSI** 9,10,12|
+| 9/25 | Data Structures: Tuples, Strings, Lists, and Dictionaries <br> File I/O: Reading and Writing data|**RSI** 11 <br>Health Stats Part 2|*Study for Quiz 2*|
+| 10/2 |  **Quiz 2: Control Flow and Data Structures  ** <br> Data ETL: Extraction, Translation, Load| Web Scraping Project| **DC** "Cleaning Data with Python" <br>*Study for Quiz 3* |
+| 10/9 | *No class, extended Fall Break* | | |
+| 10/16 | **Quiz 3: Vanilla Python Scripts** <br> Numpy Basics | HealthStats Part 3| **DC** "NumPy"|
+| 10/23 | More NumPy| TBA | **DC** "Dictionaries and Pandas" |
+| 10/30 | Pandas DataFrames | HealthStats Part 4 | **DC** "Logic, Conrol Flow, and Filtering," "Loops"|
+| 11/6 | **Quiz 4: NumPy and Pandas** <br>Pandas I/O | TBA |**DC** "Matplotlib," "Case Study: Hacker Statistics" |
+| 11/13 | Matplotlib <br> Time Series | HealthStats Part 5 | **DC** "Importing Data with Pandas"<br> *Prep for Quiz 5*  |
+| 11/20 | **Quiz 5: Putting it all together** | Project Kickoff | **DC** "Manipulating DataFrames with Pandas" |
+| 11/27 | Workshop  | | **DC** "Introduction to Data Visualization with Python" |
+| 12/4 | Workshop | | **Commit Final Project Notebooks to GitHub** |
+| 12/11 | **Team Project Presentations: 10-minutes per team** | Peer reviews for each presentation |||
