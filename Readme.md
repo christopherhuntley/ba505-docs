@@ -1,9 +1,9 @@
 # IS 505 Course Documents
-_Fall 2017_
+_Fall 2018_
 
 * [Syllabus](Syllabus.md)
 * [Agendas](Agenda)
 * [Lectures](Slides)
 * [Tutorials](Tutorials)
 * [Downloads](Downloads)
-* [Final Project](FinalProjects/Fall2017.md)
+* Final Project (TBA)
