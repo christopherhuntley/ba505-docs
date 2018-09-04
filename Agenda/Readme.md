@@ -10,4 +10,4 @@
 * [GitHub Desktop](https://desktop.github.com)
 * [Atom](https://atom.io)
 * [Python 3 Reference Cheat Sheet](../Downloads/Python3_reference_cheat_sheet.pdf)
-* [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/is505-docs)
+* [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/ba505-docs)
