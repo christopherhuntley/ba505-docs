@@ -1,4 +1,4 @@
-# IS 505 Course Documents
+# BA 505 Course Documents
 _Fall 2018_
 
 * [Syllabus](Syllabus.md)
