@@ -72,7 +72,7 @@ Given the large class enrollment and the technical nature of the subject, it is 
 | 10/23 | More NumPy| TBA | **DC** "Dictionaries and Pandas" |
 | 10/30 | Pandas DataFrames | HealthStats Part 4 | **DC** "Logic, Conrol Flow, and Filtering," "Loops"|
 | 11/6 | **Quiz 4: NumPy and Pandas** <br>Pandas I/O | TBA |**DC** "Matplotlib," "Case Study: Hacker Statistics" |
-| 11/13 | Matplotlib <br> Time Series | HealthStats Part 5 | **DC** "Importing Data with Pandas"<br> *Prep for Quiz 5*  |
+| 11/13 | Matplotlib <br> Time Series | HealthStats Part 5 | **DC** "Importing Data with Pandas," "pandas Foundations" course (as prep for Quiz 5)  |
 | 11/20 | **Quiz 5: Putting it all together** | Project Kickoff | **DC** "Manipulating DataFrames with Pandas" |
 | 11/27 | Workshop  | | **DC** "Introduction to Data Visualization with Python" |
 | 12/4 | Workshop | | **Commit Final Project Notebooks to GitHub** |
