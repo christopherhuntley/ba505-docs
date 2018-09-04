@@ -1,4 +1,4 @@
-# IS 505 Python for Business Analytics
+# BA 505 Python for Business Analytics
 *Fall 2018*
 ## Course Description
 This course introduces Python as a language and tool for collecting, preprocessing, and visualizing data for business analytics. Long a favorite language among data scientists and business analysts, Python is an essential skill with applications in business modeling, optimization,  statistical analysis, deep learning, and big data analytics. Starting with a review of the fundamental programming concepts, the course builds mastery of Python language, libraries, and tools through short lectures and online tutorials. The course concludes with a final project designed to demonstrate mastery of the subject.   
@@ -73,7 +73,8 @@ Given the large class enrollment and the technical nature of the subject, it is 
 | 10/30 | Pandas DataFrames | HealthStats Part 4 | **DC** "Logic, Conrol Flow, and Filtering," "Loops"|
 | 11/6 | **Quiz 4: NumPy and Pandas** <br>Pandas I/O | TBA |**DC** "Matplotlib," "Case Study: Hacker Statistics" |
 | 11/13 | Matplotlib <br> Time Series | HealthStats Part 5 | **DC** "Importing Data with Pandas," "pandas Foundations" course (as prep for Quiz 5)  |
-| 11/20 | **Quiz 5: Putting it all together** | Project Kickoff | **DC** "Manipulating DataFrames with Pandas" |
+| 11/20 | **Quiz 5: Putting it all to
+gether** | Project Kickoff | **DC** "Manipulating DataFrames with Pandas" |
 | 11/27 | Workshop  | | **DC** "Introduction to Data Visualization with Python" |
 | 12/4 | Workshop | | **Commit Final Project Notebooks to GitHub** |
 | 12/11 | **Team Project Presentations: 10-minutes per team** | Peer reviews for each presentation |||
