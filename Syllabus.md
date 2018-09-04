@@ -20,11 +20,11 @@ This course introduces Python as a language and tool for collecting, preprocessi
 ## Instructor
 Christopher L. Huntley  
 Dolan School of Business, Room 1122  
-Email: chuntley@fairfield.edu  
+Email: chuntley@fairfield.edu
 
 ## Office Hours
-  * Tuesdays 11am-noon & 5:00-6:15pm
-  * Fridays 2:00-3:30pm  
+  * Mondays and Thursdays 11am-noon
+  * Tuesdays 5:00-6:15pm  
   * Other times are by appointment only. However, email works well, especially when the instructor is otherwise unavailable.
 
 ## Resources
@@ -34,15 +34,14 @@ Email: chuntley@fairfield.edu
 * **Reference Docs:** The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM).
 * **Hardware:** Each student is expected to bring to class a recent-vintage laptop to class. The student must have admin rights to install software, manage ports, and set file permissions. The laptop should have at least 5GB of free space. In addition, they are expected to bring headphones / earbuds for doing online tutorials in class.
 * **Websites:**  
-    * Class documents (including this syllabus) are [Dr. Huntley's is505-docs GitHub repository](https://github.com/christopherhuntley/is505-docs). For printable
+    * Class documents (including this syllabus) are in [Dr. Huntley's is505-docs GitHub repository](https://github.com/christopherhuntley/is505-docs).
     * Programing assignments are posted and managed in [GitHub Classroom](https://classroom.github.com/classrooms/29896723-is-505-fall-2017).
-    * Blackboard will be used for weekly agendas and quizzes.
 
 ## Student Expectations
 This is a graduate class intended for serious professionals:
-* Expect to spend at least 12 hours per week attending class and completing your assignments.
-* Do your own work. There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter.
-* Be a good teammate and class citizen. Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
+* **Expect to spend at least 10 hours per week** attending class and completing your assignments.
+* **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter.
+* **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
 *If you cannot abide by these policies then please take another course.*
 
