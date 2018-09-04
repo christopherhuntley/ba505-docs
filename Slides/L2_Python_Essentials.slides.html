@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L2_Python_Essentials slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11906,7 +11906,7 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="img/Dolan.jpg" alt="DSB Logo"></p>
-<h1 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">&#182;</a></h1><h2 id="RSI-Chapter-1">RSI Chapter 1<a class="anchor-link" href="#RSI-Chapter-1">&#182;</a></h2><h3 id="Concepts-you-should-know-before-your-first-program">Concepts you should know before your first program<a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h3>
+<h1 id="Python-Language-Essentials">Python Language Essentials<a class="anchor-link" href="#Python-Language-Essentials">&#182;</a></h1><h2 id="RSI-Chapters-2,-3,-4">RSI Chapters 2, 3, 4<a class="anchor-link" href="#RSI-Chapters-2,-3,-4">&#182;</a></h2><h3 id="Statements,-Expressions,-Variables,-Values,-Functions,-and-Operators">Statements, Expressions, Variables, Values, Functions, and Operators<a class="anchor-link" href="#Statements,-Expressions,-Variables,-Values,-Functions,-and-Operators">&#182;</a></h3>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11915,11 +11915,17 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives">&#182;</a></h1><h2 id="Theory-/-Be-able-to-explain-...">Theory / Be able to explain ...<a class="anchor-link" href="#Theory-/-Be-able-to-explain-...">&#182;</a></h2><ul>
-<li>General programming terms like source code, interpreter, compiler, object code, comment, data type, etc.</li>
-<li>The different types of errors that require debugging</li>
+<li>Basic Python syntax and structure, including statements, variables, expressions, operators, and functions</li>
+<li>How variables and functions allow us to use and reuse data and processing</li>
+<li>The debugging process and common types of bugs</li>
+<li></li>
 </ul>
 <h2 id="Skills-/-Know-how-to--...">Skills / Know how to  ...<a class="anchor-link" href="#Skills-/-Know-how-to--...">&#182;</a></h2><ul>
-<li>Run Python statements in JupyterLab</li>
+<li>Determine the type of a data value</li>
+<li>Use variables to store, retrieve, and update values</li>
+<li>Convert from one data type to another</li>
+<li>Evaluate basic arithmetic and string expressions</li>
+<li>Use a <code>for</code> loop to iterate over a list of values  </li>
 </ul>
 
 </div>
@@ -11929,7 +11935,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Python-Programming-Environment">The Python Programming Environment<a class="anchor-link" href="#The-Python-Programming-Environment">&#182;</a></h1><h2 id="A-Tour-with-Examples-in-JupyterLab">A Tour with Examples in JupyterLab<a class="anchor-link" href="#A-Tour-with-Examples-in-JupyterLab">&#182;</a></h2>
+<h1 id="Python-Language-Basics">Python Language Basics<a class="anchor-link" href="#Python-Language-Basics">&#182;</a></h1><h2 id="Statements,-Expressions,-Variables,-Values,-Functions,-and-Operators">Statements, Expressions, Variables, Values, Functions, and Operators<a class="anchor-link" href="#Statements,-Expressions,-Variables,-Values,-Functions,-and-Operators">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11937,195 +11943,178 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-Language-Origins">Python Language Origins<a class="anchor-link" href="#Python-Language-Origins">&#182;</a></h1><ul>
-<li>Python is a high-level <em>scripting</em> language, originally intended for short programs that run from the command line.</li>
-<li>Timeline:<ul>
-<li>1980’s: early development by Guido Van Rossum</li>
-<li>1994: Python 1.0, the first complete release</li>
-<li>2000: Python 2.0 added advanced data types and core object-orientation (‘everything is an object’)</li>
-<li>2008: Python 3.0 broke backwards compatibility to streamline and unify language syntax and libraries</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-2-vs-Python-3">Python 2 vs Python 3<a class="anchor-link" href="#Python-2-vs-Python-3">&#182;</a></h1><ul>
-<li>Plenty of Python libraries (reusable programs) in use today were originally written before 2008<ul>
-<li>While most libraries have updated to Python 3, some remain stuck in Python 2</li>
-</ul>
-</li>
-<li><strong>We will be learning Python 3</strong> in this class<ul>
-<li>However, you may be asked to use Python 2 in some of your future analytics classes and on the job</li>
-<li>Fortunately, the switch is pretty easy once you know what you are doing</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Source-Code,-Compilers,-and-Interpreters">Source Code, Compilers, and Interpreters<a class="anchor-link" href="#Source-Code,-Compilers,-and-Interpreters">&#182;</a></h1><ul>
-<li>Python is a high-level language like C, Java, or C# <ul>
-<li>Written and read by humans as <strong>source code</strong> (scripts or programs)</li>
-<li>Has to be converted into low-level <strong>object code</strong> (not human-readable, like .exe files) that the computer uses natively</li>
-</ul>
-</li>
-<li>Two ways to convert from source code (programs) to object code (machine code):<ul>
-<li><strong>Compilers</strong> (used by C, Java, C#, etc.) convert it all at once, requiring all source code to be written in advance</li>
-<li><strong>Interpreters</strong> convert the code one line at a time, allowing the source code to be written interactively</li>
-</ul>
-</li>
-<li>Python can work <em>either way</em>, compiled in advance (for speed) or interpretted as needed (for flexibility)</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-Interpreter-Example">Python Interpreter Example<a class="anchor-link" href="#Python-Interpreter-Example">&#182;</a></h1><ul>
-<li>Most Python programs are executed via interpreter</li>
-<li>JupyterLab supports the interpreter in three ways:<ul>
-<li>Via Terminal session</li>
-<li>Via IPython console</li>
-<li>Via Notebook code cells</li>
-</ul>
-</li>
-<li>Here's an old-school terminal session from in 2006:
-<img src="img/L1_terminal.png" alt="Terminal Session"></li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-Terminal-Session">JupyterLab Terminal Session<a class="anchor-link" href="#JupyterLab-Terminal-Session">&#182;</a></h1><ol>
-<li>Fire up JupyterLab if you haven't already.</li>
-<li>In JupyterLab's "Launcher" panel, select "Terminal" in the "Other" menu at the bottom. </li>
-<li>A terminal shell will open on a new tab. <ul>
-<li>On MacOS, the terminal will be <code>bash</code></li>
-<li>On Windows, the terminal is likely to be <code>Command prompt</code></li>
-</ul>
-</li>
-<li>Enter <code>python</code> to get an old-fashioned python interpreter</li>
-<li>Type <div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
-and hit return.</li>
-<li>The interpreter will execute the line of code and then return the result.</li>
-</ol>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Terminal1.png" alt="Launching Terminal"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Terminal2.png" alt="Terminal Screenshot"></p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-IPython-Console">JupyterLab IPython Console<a class="anchor-link" href="#JupyterLab-IPython-Console">&#182;</a></h1><ol>
-<li>In JupyterLab's "Launcher" panel, select "Python 3" in the "Console" menu. </li>
-<li>An IPython Console will launch in a new tab.</li>
-<li>Type the following into the text box at the bottom of the console.<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
-</li>
-<li>Hit <code>Control+Enter</code> (or <code>Control+Return</code>) to execute the code.</li>
-<li>The console will display the code and the result.</li>
-</ol>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Console1.png" alt="Launching Console"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Console2.png" alt="Console Screenshot"></p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-Notebook">JupyterLab Notebook<a class="anchor-link" href="#JupyterLab-Notebook">&#182;</a></h1><ol>
-<li>In JupyterLab's "Launcher" panel, select "Python 3" in the "Notebook" menu. </li>
-<li>A blank Notebook will appear in a new tab.</li>
-<li>Type the following into the blank code cell.<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
-</li>
-<li>Hit the play button (triangle icon) to execute the code cell.</li>
-<li>The result will display immediately below the cell.</li>
-</ol>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Notebook1.png" alt="Launching Notebook"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Notebook2.png" alt="Launching Notebook"></p>
+<h1 id="Values-and-Data-Types">Values and Data Types<a class="anchor-link" href="#Values-and-Data-Types">&#182;</a></h1><p>Every piece of data in Python has a <strong>value</strong> and a <strong>data type</strong>:</p>
 
 </div>
 </div>
 </div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>5 is a value with the data type int (integer)</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>5.0 is a value of type float (floating point number)</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>‘Hello’ is a value of type str (string of characters)</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>[‘IS505’,2017] is a list (of values)</li>
+</ul>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Try-It-Out!">Try It Out!<a class="anchor-link" href="#Try-It-Out!">&#182;</a></h1><ol>
+<li>In JupyterLab open up an iPython Console. (Like we did a few minutes ago!)  </li>
+<li>Type the following Python Statements. (Reminder: Control+Enter)<ul>
+<li><code>type(5)</code></li>
+<li><code>type(5.0)</code></li>
+<li><code>type('5.0')</code></li>
+<li><code>type("Hello")</code></li>
+<li><code>type(['IS505',2017])</code></li>
+</ul>
+</li>
+<li>For each you will get something like <code>&lt;class ... &gt;</code> that tells you the data type.</li>
+</ol>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Notice anything about <code>'5.0'</code>? Explain.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Data-Types-Matter-(a-lot)">Data Types Matter (a lot)<a class="anchor-link" href="#Data-Types-Matter-(a-lot)">&#182;</a></h1><p>The data types of our values determine what kinds of things we can do with them.
+Explain each of the following results:</p>
+<ul>
+<li><code>'A'+'B'</code>     → <code>'AB'</code></li>
+<li><code>1+2</code>             → <code>3</code></li>
+<li><code>1+2.0</code>       → <code>3.0</code></li>
+<li><code>1+'A'</code>       → error message</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Answers</p>
+<ul>
+<li><code>'A'+'B'</code> combines the two <code>str</code> (text) to produce a new <code>str</code>.</li>
+<li><code>1+2</code> sums the two <code>int</code>s (integers) to produce a new <code>int</code>.</li>
+<li><code>1+2.0</code> sums an <code>int</code> with a <code>float</code> (decimal) to get a <code>float</code>.</li>
+<li><code>1+'A'</code> produces a <em>type incompatibility error</em>. Python does not know how to convert <code>'A'</code> to a number.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Type-Conversion">Type Conversion<a class="anchor-link" href="#Type-Conversion">&#182;</a></h1><p>We can translate data from one data type to another using type conversion functions.</p>
+<ul>
+<li><code>float(5)</code>        → <code>5.0</code></li>
+<li><code>int(5.0)</code>        → <code>5</code></li>
+<li><code>str(5)</code>      → <code>‘5’</code></li>
+<li><code>int(‘5.0’)</code>  → syntax error! Why?  </li>
+</ul>
+<p>We can do more complex conversions like this ...</p>
+<ul>
+<li><code>int(float(‘5.0’))</code> → <code>5</code></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h1><ul>
+<li>A variable is just a place that stores a value that we can recall and change later if needed.  </li>
+<li>We can set the value of a variable using the assignment operator (=)<br>
+<code>&lt;variable name&gt; = &lt;value&gt;</code></li>
+<li>Each variable ...<ul>
+<li>Can store one data value at a time</li>
+<li>Has a unique name (within scope) so you can access the data</li>
+<li>Can be modified (i.e., vary) through assignment</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Try-It-Out!">Try It Out!<a class="anchor-link" href="#Try-It-Out!">&#182;</a></h1><p>Execute the following script in the IPython Console.</p>
+<div class="highlight"><pre><span></span><span class="n">first_name</span> <span class="o">=</span> <span class="s2">&quot;Bob&quot;</span>
+<span class="n">last_name</span> <span class="o">=</span> <span class="s2">&quot;Gibson&quot;</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hi &quot;</span><span class="o">+</span><span class="n">first_name</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">last_name</span><span class="p">)</span>
+<span class="n">first_name</span> <span class="o">=</span> <span class="s2">&quot;Dan&quot;</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hi &quot;</span><span class="o">+</span><span class="n">first_name</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">last_name</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">first_name</span> <span class="o">=</span> <span class="s2">&quot;Bob&quot;</span>
+<span class="n">last_name</span> <span class="o">=</span> <span class="s2">&quot;Gibson&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hi &quot;</span><span class="o">+</span><span class="n">first_name</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">last_name</span><span class="p">)</span>
+<span class="n">first_name</span> <span class="o">=</span> <span class="s2">&quot;Dan&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hi &quot;</span><span class="o">+</span><span class="n">first_name</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">last_name</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12142,7 +12131,8 @@ and hit return.</li>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello
+<pre>Hi Bob Gibson
+Hi Dan Gibson
 </pre>
 </div>
 </div>
@@ -12150,19 +12140,98 @@ and hit return.</li>
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Variable-Names">Variable Names<a class="anchor-link" href="#Variable-Names">&#182;</a></h1><ul>
+<li>Should be easy to understand and type<ul>
+<li>Make the names describe what is being stored and how it is being used</li>
+<li><code>last_name</code> is much better than names like <code>X</code> or <code>l</code> or even <code>ln</code></li>
+</ul>
+</li>
+<li>Follow the <a href="https://www.python.org/dev/peps/pep-0008/#naming-conventions">Python style guide</a><ul>
+<li>Always lower case and use underscores to separate words (e.g., <code>last_name</code>)</li>
+<li>Don’t go too crazy on the length (1-15 chars)</li>
+<li>And do not use keywords for names</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Statements-and-Expressions">Statements and Expressions<a class="anchor-link" href="#Statements-and-Expressions">&#182;</a></h1><p>A <strong>statement</strong> is a Python instruction (line of code) that asks Python to do something.</p>
+<ul>
+<li><code>X=2</code> is an assignment statement</li>
+</ul>
+<p>An <strong>expression</strong> is a combination of values, variables, operators, and functions that can be <strong>evaluated</strong> to a value.</p>
+<ul>
+<li>Expressions <strong>always</strong> evaluate to a value</li>
+<li><code>2+2</code> and <code>type(2+2)</code> are expressions</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h1><ul>
+<li>A <strong>function</strong> is a named, reusable sequence of <strong>statements</strong><ul>
+<li>Like how a variable is a place to store a value for later</li>
+<li>to run a function, just <strong>call</strong> it</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Functions can <strong>return</strong> values, <strong>just like expressions</strong><ul>
+<li><code>str()</code> is a function that returns a string</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Function calls <strong>always</strong> include <code>()</code> (parentheses) after the function name<ul>
+<li>Any values listed inside the <code>()</code> are <strong>input arguments</strong></li>
+<li><code>str(1.0 + 3)</code> calls <code>str()</code> with the expression <code>1.0+3</code> as the argument and returns the equivalent string value</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-about-Typos?">What about Typos?<a class="anchor-link" href="#What-about-Typos?">&#182;</a></h1><p>When using the interpreter interactively, we are likely to have typos and other errors.<br>
-For example ...
-The example from 2006 used a Python 2.4 statement</p>
-<div class="highlight"><pre><span></span><span class="k">print</span> <span class="err">‘</span><span class="n">I</span> <span class="n">love</span> <span class="n">this</span> <span class="n">course</span><span class="err">!’</span>
+<h1 id="Composite-Function-Calls">Composite Function Calls<a class="anchor-link" href="#Composite-Function-Calls">&#182;</a></h1><p>Function arguments can call other functions if needed.<br>
+Remember this?</p>
+<div class="highlight"><pre><span></span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s1">&#39;5.0&#39;</span><span class="p">))</span>
 </pre></div>
-<p>That doesn't work in Python 3!<br>
-<strong>If the interpreter cannot execute the statement, then it returns an error message.<br>
-Please read these carefully before asking for help.</strong></p>
+<p>The <code>float('5.0')</code> function call inside the parentheses is evaluated before passing the value into the <code>int()</code> function.</p>
 
 </div>
 </div>
@@ -12171,20 +12240,206 @@ Please read these carefully before asking for help.</strong></p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Debugging-/-Error-Types">Debugging / Error Types<a class="anchor-link" href="#Debugging-/-Error-Types">&#182;</a></h1><p>Listed in increasing difficulty ...</p>
+<h1 id="Operators-and-Operands">Operators and Operands<a class="anchor-link" href="#Operators-and-Operands">&#182;</a></h1><ul>
+<li>An operator is a computation (‘verb’) that can be used in an expression to calculate a value<ul>
+<li><code>+</code>, <code>-</code>,<code>*</code>, and <code>/</code> are <strong>arithmetic</strong> operators</li>
+<li><code>()</code> is a <strong>grouping</strong> operator</li>
+</ul>
+</li>
+<li>Operators are like functions that have special built-in ‘shortcut’ syntax:<ul>
+<li><code>2+3</code> is equivalent to function call like <code>add(2,3)</code></li>
+<li>The values being operated on (<code>2</code> and <code>3</code> above) are called <strong>operands</strong></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Order-of-Operations:-PEMDAS">Order of Operations: PEMDAS<a class="anchor-link" href="#Order-of-Operations:-PEMDAS">&#182;</a></h1><p>Math expressions are evaluated just like in algebra:</p>
+<ol>
+<li>Parentheses</li>
+<li>Exponents</li>
+<li>Multiplication</li>
+<li>Division</li>
+<li>Addition</li>
+<li>Subtraction</li>
+</ol>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Trick: When in doubt use parentheses to force the right order.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-Python-Beginners-Reference-Cheat-Sheet">The Python Beginners Reference Cheat Sheet<a class="anchor-link" href="#The-Python-Beginners-Reference-Cheat-Sheet">&#182;</a></h1><p>Suggestion: Download the Python 3 Beginner’s Reference Cheat Sheet from <a href="http://sixthresearcher.com/wp-content/uploads/2016/12/Python3_reference_cheat_sheet.pdf">sixthresearcher.com</a>
+<img src="img/L1_CheatSheet.png" alt="Python Cheat Sheet Screenshot"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Debugging">Debugging<a class="anchor-link" href="#Debugging">&#182;</a></h1><h2 id="Programming-is-80%-debugging!">Programming is 80% debugging!<a class="anchor-link" href="#Programming-is-80%-debugging!">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Debugging-is-a-Continual-Process">Debugging is a Continual Process<a class="anchor-link" href="#Debugging-is-a-Continual-Process">&#182;</a></h1><p><img src="img/L2_RunDebugEdit.png" alt="Run-Debug-Edit">
+This Edit-Run-Debug cycle goes on <strong>forever</strong>, until <strong>all</strong> tech that uses the code is dead.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In 2014, a serious security bug nicknamed Shellshock was found in <code>bash</code>, a package installed on hundreds of millions of computers, including every Macintosh since 2001.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>The bug had existed since 1989. That's 25 years!</strong><br>
+The bug has been fixed, of course.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Avoiding-Bugs">Avoiding Bugs<a class="anchor-link" href="#Avoiding-Bugs">&#182;</a></h1><p><strong>1. Know the Requirements.</strong><br>
+   Be smart but lazy. Do not solve the wrong problem and do not do more than you have to.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>2. Start Small.</strong><br>
+    Debug early and often, starting with your first few lines of source code.</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>3. Keep Testing and Improving.</strong><br>
+   Even “perfect” code doesn’t exist in a vacuum. Changes to other people’s code can expose/induce bugs in your code!</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Interpreting-Error-Messages">Interpreting Error Messages<a class="anchor-link" href="#Interpreting-Error-Messages">&#182;</a></h1><ul>
+<li>Often when things fail, Python will try to tell you what happened using standard error messages</li>
+<li>Each error message has its own (obscure) way of reporting the problem. </li>
+<li>Take the time to get to know the standard error messages and what they are telling you.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Most-Common-Errors">Most Common Errors<a class="anchor-link" href="#Most-Common-Errors">&#182;</a></h1><ul>
+<li>ParseError (55%)  <ul>
+<li>A statement cannot be understood by the interpreter. Look for broken syntax. You may have to <a href="https://docs.python.org/">RTFM</a> to get it right.</li>
+</ul>
+</li>
+<li>TypeError (14%)  <ul>
+<li>An operation/function is being called on data of the wrong type. Check the data types and (again) <a href="https://docs.python.org/">RTFM</a>.</li>
+</ul>
+</li>
+<li>NameError (11%)  <ul>
+<li>Usually, referring to a variable that does not exist. Check for typos in your variable names. Likely don’t have to <a href="https://docs.python.org/">RTFM</a>.</li>
+</ul>
+</li>
+<li>ValueError (10%)<ul>
+<li>Function/op arguments fail validation check. <a href="https://docs.python.org/">RTFM</a>.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What's with the RTFMs? Maybe I'm trying to tell you something important. Google it.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Diagnosis-is-an-Active-Process">Diagnosis is an Active Process<a class="anchor-link" href="#Diagnosis-is-an-Active-Process">&#182;</a></h1><ul>
+<li>Staring at your code to find and fix errors does not usually work. It just gives you eye strain.</li>
+<li>Use a debugger (e.g., in Spyder IDE) or insert print statements (e.g., in Jupyter Notebook) to see what is going on. </li>
+<li>Pro Tip: You can delete/comment out the print statements after you’ve fixed the bug. Or, use a logging tool to print debugging message to a separate file/console. The messages can be turned off and on as needed. </li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Looking-Ahead:-Lists-and-Loops">Looking Ahead: Lists and Loops<a class="anchor-link" href="#Looking-Ahead:-Lists-and-Loops">&#182;</a></h1><h2 id="Navigating-your-first-big-data-structure">Navigating your first big data structure<a class="anchor-link" href="#Navigating-your-first-big-data-structure">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What's-a-List?">What's a List?<a class="anchor-link" href="#What's-a-List?">&#182;</a></h1><p>Lists are a <strong>data structure</strong> for grouping <strong>collections</strong> of values in one place.</p>
+<div class="highlight"><pre><span></span><span class="n">gashouse_gang</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Tinker&quot;</span><span class="p">,</span><span class="s2">&quot;Evers&quot;</span><span class="p">,</span><span class="s2">&quot;Chance&quot;</span><span class="p">]</span>
+<span class="n">planets</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;Mercury&quot;</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;Venus&quot;</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="s2">&quot;Earth&quot;</span><span class="p">]]</span>
+</pre></div>
 <ul>
-<li><strong>Syntax errors</strong> in the source code are caught by the interpreter or compiler before trying to run it<ul>
-<li>Fix: Look for broken Python statements or typos</li>
-</ul>
-</li>
-<li><strong>Runtime errors</strong> happen when the computer tries to run a line of code<ul>
-<li>Fix: Read the error message, which explains what caused the interpreter to break. Often you'll find that some assumption you've made about a resource being available or code being executed in advance are faulty. </li>
-</ul>
-</li>
-<li>Programs with <strong>Semantic errors</strong> (bad logic) run fine but do not produce the expected results<ul>
-<li>Fix: Study the source code for <strong>incorrect logic</strong>. Since your are the source of the logic, the computer has no way to tell that it is faulty, leaving you on your own to locate the bug. </li>
-</ul>
-</li>
+<li>The items in the list can be just about anything (including other lists)</li>
+<li>The list is sequential, in a given order</li>
+<li>We can add or delete items from the list as needed</li>
 </ul>
 
 </div>
@@ -12194,22 +12449,16 @@ Please read these carefully before asking for help.</strong></p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Code-Comments">Code Comments<a class="anchor-link" href="#Code-Comments">&#182;</a></h1><div class="highlight"><pre><span></span><span class="c1"># Compute the W2H ratio for one person</span>
+<h1 id="List-Indexes">List Indexes<a class="anchor-link" href="#List-Indexes">&#182;</a></h1><p>When we want to retrieve a list item, we use an <strong>index</strong> to indicate which one we want.</p>
+<div class="highlight"><pre><span></span><span class="n">letters</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;z&#39;</span><span class="p">,</span><span class="s1">&#39;x&#39;</span><span class="p">,</span><span class="s1">&#39;y&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">]</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">second_letter</span> <span class="o">=</span> <span class="n">letters</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>      <span class="c1"># returns &#39;x&#39;</span>
+<span class="n">third_number</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>       <span class="c1"># returns 2</span>
 </pre></div>
 <ul>
-<li>Python statements are meant for the computer to execute</li>
-<li>Sometimes we want to include explanatory comments for programmers to read<ul>
-<li>Comments can be <em>especially</em> helpful with semantic errors</li>
-</ul>
-</li>
-<li>Comments always start with the # character<ul>
-<li>Anything on a line after the # is ignored by the interpreter</li>
-</ul>
-</li>
-<li><strong>Comments are considered part of your code!</strong><ul>
-<li>Leaving them out is considered <em>extremely</em> unprofessional (and in most of the companies you've heard of will result in a reprimand or worse). </li>
-</ul>
-</li>
+<li>Indexes are integers representing the order in the list</li>
+<li>The first item is always at index 0</li>
 </ul>
 
 </div>
@@ -12219,24 +12468,87 @@ Please read these carefully before asking for help.</strong></p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Syntax-Highlighting">Syntax Highlighting<a class="anchor-link" href="#Syntax-Highlighting">&#182;</a></h1><ul>
-<li>Python is very strict about what kinds of statements it can execute</li>
-<li>Every kind of statement has its own <strong>syntax</strong>, a pattern composed of keywords, expressions, and punctuation characters.<ul>
-<li>The syntax of a print statement (in BNF grammar notation) is <div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="o">&lt;</span><span class="n">string</span> <span class="n">expression</span><span class="o">&gt;</span><span class="p">)</span>
+<h1 id="Iteration--with-for-Loops">Iteration  with <code>for</code> Loops<a class="anchor-link" href="#Iteration--with-for-Loops">&#182;</a></h1><p>When we apply the same instructions to each member of a list, we are <strong>iterating over</strong> the list.</p>
+<div class="highlight"><pre><span></span><span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;x&quot;</span><span class="p">,</span><span class="s2">&quot;y&quot;</span><span class="p">,</span><span class="s2">&quot;z&quot;</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">values</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>    <span class="c1"># the buggy way</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]:</span>                       <span class="c1"># for loop with explicit indexes</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>                              <span class="c1"># spacing between lists</span>
+<span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>                        <span class="c1"># for loop with implicit indexing</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
 </pre></div>
-</li>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;x&quot;</span><span class="p">,</span><span class="s2">&quot;y&quot;</span><span class="p">,</span><span class="s2">&quot;z&quot;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">values</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>    <span class="c1"># the buggy way</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]:</span>                       <span class="c1"># for loop with indexes</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>                        <span class="c1"># for loop with implicit enumerator</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>x y z
+x y z  
+x y z </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The third way is less buggy. Why?</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Control-Flow-Structures">Control Flow Structures<a class="anchor-link" href="#Control-Flow-Structures">&#182;</a></h1><p>A loop is a kind of control structure that indicates the <strong>flow of execution</strong>.<br>
+Three basic kinds:</p>
+<ul>
+<li>Sequences (do this then do that ...)</li>
+<li>Loops (repeat this until done)</li>
+<li>Conditionals (if X then do this)  </li>
 </ul>
-</li>
-<li><strong>Keywords</strong> like <code>print</code>, <code>if</code>, <code>or</code>, and <code>for</code> are <strong>reserved</strong> and cannot be used for variable names<ul>
-<li>To help you identify reserved words in your code, JupyterLab will highlight them in green.</li>
-</ul>
-</li>
-<li>Pay attention to the color highlighting to see how Python parses out your code. <ul>
-<li>Sometimes color can clue you into typos and other bugs. </li>
-</ul>
-</li>
-<li>Question: Why are <code>&lt;</code> and <code>&gt;</code> in purple in the code snippet above?</li>
-</ul>
+<p>Basically, anything that we can show on a flowchart is a control structure.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/L2_Flowchart.png" alt="Flow chart"></p>
 
 </div>
 </div>
@@ -12246,21 +12558,18 @@ Please read these carefully before asking for help.</strong></p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Classwork-(Start-here-in-class)">Classwork (Start here in class)<a class="anchor-link" href="#Classwork-(Start-here-in-class)">&#182;</a></h1><ul>
-<li>Complete chapters 1 and 2 of the RSI <em>How to Think Like a Computer Scientist</em> e-book.<ul>
-<li>Do not play the videos without headphones; reading and typing is enough</li>
+<li>Data Camp “Git Basic Workflow” assignment<ul>
+<li>Git is not easy! Use this time to get help from the professor!</li>
 </ul>
 </li>
 <li>If time permits, start in on your homework. </li>
-<li>Ask questions when you need help. Use this time to get help from the professor!</li>
 </ul>
 <h1 id="Homework-(Do-at-home)">Homework (Do at home)<a class="anchor-link" href="#Homework-(Do-at-home)">&#182;</a></h1><p>The following is due before class next week:</p>
 <ul>
 <li>Any remaining classwork from tonight</li>
-<li>RSI Chapters 3 and 4</li>
-<li>Data Camp “Python Basics” assignment</li>
+<li>RSI Chapters 6, 7, and 8</li>
 </ul>
-<p>Note: All work on Data Camp is logged. Don't try to fake it!
-Please email chuntley@fairfield.edu if you have any problems or questions.</p>
+<p>Please email chuntley@fairfield.edu if you have any problems or questions.</p>
 
 </div>
 </div>
@@ -12270,7 +12579,7 @@ Please email chuntley@fairfield.edu if you have any problems or questions.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="img/Dolan.jpg" alt="DSB Logo"></p>
-<h1 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">&#182;</a></h1><h2 id="RSI-Chapter-1">RSI Chapter 1<a class="anchor-link" href="#RSI-Chapter-1">&#182;</a></h2><h3 id="Concepts-you-should-know-before-your-first-program">Concepts you should know before your first program<a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h3>
+<h1 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">&#182;</a></h1><h2 id="RSI-Chapters-1-and-2">RSI Chapters 1 and 2<a class="anchor-link" href="#RSI-Chapters-1-and-2">&#182;</a></h2><h3 id="Concepts-you-should-know-before-your-first-program">Concepts you should know before your first program<a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h3>
 </div>
 </div>
 </div></section></section>
