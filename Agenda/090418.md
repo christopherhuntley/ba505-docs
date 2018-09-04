@@ -4,9 +4,10 @@
 3. [Python Preliminaries](../Slides/L1_Python_Preliminaries.slides.html)
 4. Classwork and Homework
 
-### Download Links
+### Links
 * [Syllabus](../Syllabus.md)
 * [Anaconda](https://www.anaconda.com)
 * [GitHub Desktop](https://desktop.github.com)
 * [Atom](https://atom.io)
 * [Python 3 Reference Cheat Sheet](../Downloads/Python3_reference_cheat_sheet.pdf)
+* [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/is505-docs)
