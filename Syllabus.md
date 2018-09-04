@@ -35,7 +35,7 @@ Email: chuntley@fairfield.edu
 * **Hardware:** Each student is expected to bring to class a recent-vintage laptop to class. The student must have admin rights to install software, manage ports, and set file permissions. The laptop should have at least 5GB of free space. In addition, they are expected to bring headphones / earbuds for doing online tutorials in class.
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/ba505-docs).
-    * Programing assignments are posted and managed in [GitHub Classroom](https://classroom.github.com/classrooms/29896723-is-505-fall-2017).
+    * Programing assignments are posted and managed in [GitHub Classroom](https://classroom.github.com/classrooms/42898089-ba-505-python-for-analytics-fall-2018) and [Data Camp](https://datacamp.com).
 
 ## Student Expectations
 This is a graduate class intended for serious professionals:
