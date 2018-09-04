@@ -14,7 +14,7 @@ This course introduces Python as a language and tool for collecting, preprocessi
 ### Practice
 * To write Python scripts of intermediate length and complexity
 * To design and use custom data structures using built-in and third-party data types
-* To introduce and use popular third-party Python libraries like NumPy, Pandas, MatPlotLib, etc.
+* To introduce and use popular third-party Python libraries like NumPy, Pandas, Matplotlib, etc.
 * To master a professional-level data science software toolkit with Anaconda, Jupyter, GitHub, etc.
 
 ## Instructor
