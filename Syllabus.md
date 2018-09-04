@@ -34,7 +34,7 @@ Email: chuntley@fairfield.edu
 * **Reference Docs:** The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM).
 * **Hardware:** Each student is expected to bring to class a recent-vintage laptop to class. The student must have admin rights to install software, manage ports, and set file permissions. The laptop should have at least 5GB of free space. In addition, they are expected to bring headphones / earbuds for doing online tutorials in class.
 * **Websites:**  
-    * Class documents (including this syllabus) are in [Dr. Huntley's is505-docs GitHub repository](https://github.com/christopherhuntley/ba505-docs).
+    * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/ba505-docs).
     * Programing assignments are posted and managed in [GitHub Classroom](https://classroom.github.com/classrooms/29896723-is-505-fall-2017).
 
 ## Student Expectations
