@@ -9,7 +9,8 @@ __A quick introduction to Git with GitHub Desktop__
 If you are in the wrong account then log out and log in accordingly.  
 5. **Clone this repository from GitHub to your desktop.**  
 ![Clone repo to desktop](img/CloneToDesktop.png)  
-GitHub Desktop will ask where you want to save the new folder on your hard drive. Choose the `IS505` folder. The repository folder will then appear under GitHub.com in GitHub Desktop.
+GitHub Desktop will ask where you want to save the new folder on your hard drive. Choose the `IS505` folder. The repository folder will then appear under GitHub.com in GitHub Desktop.  
+![GitHub Desktop repository listing](img/TutorialInGitHubDesktop.png)  
 6. **Open the folder in Atom (or an equivalent text editor).**  
 ![Open with Atom](img/OpenWithAtom.png)  
 To open directly from GitHub Desktop, right-click on the repository name and select `Open in Atom`. If you don't have Atom installed or Windows is not cooperating with GitHub Desktop then open another editor (note: MS Word in not an editor! VS Code is pretty good though, and many prefer it to Atom) and navigate to your new repository folder.
