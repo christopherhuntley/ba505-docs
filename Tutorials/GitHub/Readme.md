@@ -67,11 +67,11 @@ Always look to make sure you don't have any dirty files before committing your c
 12. **Push your changes to GitHub.**  
 ![Push](img/Push.png)
 13. **Switch back to your browser and refresh the repository on GitHub.** Your new file should appear.  
-![Refresh](img/RefreshRepositoryWindow.png)
-14. **Open the `Mary.md` file on GitHub.com.** Oops. There is a typo on line 2. We missed a space after the second comma.
-15. **In GitHub Desktop, hit the Fetch Origin button** to make sure you have the latest copy on your computer. Note: `Push` syncs data to GitHub, while `Fetch` pulls data from GitHub. It's *always* good practice to pull down the latest changes from GitHub before editing a file.  
-16. **In Atom, insert the missing space.** Don't forget to resave the file.
-17. **In GitHub Desktop, commit your changes (with the Summary comment 'Fixed a typo') and then Push/Sync to GitHub.** Refresh your browser window to make sure that your changes pushed to GitHub.
-18. **Open the `Readme.md` file edit the file as instructed.** You'll need to know how to use headlines and links in Markdown.
-19. **Commit and Push.** For the Summary comment say that you "Completed the tutorial."
+![Refresh](img/RefreshRepositoryWindow.png)  
+14. **Open the `Mary.md` file on GitHub.com.** Oops. There is a typo on line 2. We missed a space after the second comma.  
+15. **In GitHub Desktop, hit the Fetch Origin button** to make sure you have the latest copy on your computer. Note: `Push` syncs data to GitHub, while `Fetch` pulls data from GitHub. It's *always* good practice to pull down the latest changes from GitHub before editing a file.   
+16. **In Atom, insert the missing space.** Don't forget to resave the file.  
+17. **In GitHub Desktop, commit your changes (with the Summary comment 'Fixed a typo') and then Push/Sync to GitHub.** Refresh your browser window to make sure that your changes pushed to GitHub.  
+18. **Open the `Readme.md` file edit the file as instructed.** You'll need to know how to use headlines and links in Markdown.  
+19. **Commit and Push.** For the Summary comment say that you "Completed the tutorial."  
 20. **Celebrate a little before moving on your homework.**
