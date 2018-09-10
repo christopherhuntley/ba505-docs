@@ -56,16 +56,16 @@ To open directly from GitHub Desktop, right-click on the repository name and sel
   The text is written in Markdown, the text formatting language. GitHub helpfully parses `.md` files as Markdown and then renders them as web pages in your repository. If you have not already done so, plan to read through the [Markdown docs on GitHub](https://guides.github.com/features/mastering-markdown).
 8. ** *Before saving the file * take note of the blue circle next to the filename at the top.**  
 ![Atom Dirty File Indicator](img/DirtyFileIndicatorAtom.png)  
-The circle is a "dirty file" indicator used to mark files with unsaved changes. If you are not using Atom, then you should see something similar for your editor (unless it is complete cr@p.)
+The circle is a "dirty file" indicator used to mark files with unsaved changes. If you are not using Atom, then you should see something similar for your editor (unless it is complete cr@p.)  
 9. **Save the file and note that the dirty file indicator goes away.**  
 ![Saved File](img/DirtyFileAfterSave.png)  
 Always look to make sure you don't have any dirty files before committing your changes in Git.
 10. **Switch back to GitHub Desktop, where you should see the new file listed as changed.**  
-![New file in GitHub Desktop](img/GitHubDesktopNewFile.png)  
+![New file in GitHub Desktop](img/GitHubDesktopNewFile.png)   
 11. **Commit your changes with a `Summary` 'Added the Mary Had a Little Lamb nursery rhyme'.**  
-![Commit](img/Commit.png)
+![Commit](img/Commit.png)  
 12. **Push your changes to GitHub.**  
-![Push](img/Push.png)
+![Push](img/Push.png)  
 13. **Switch back to your browser and refresh the repository on GitHub.** Your new file should appear.  
 ![Refresh](img/RefreshRepositoryWindow.png)  
 14. **Open the `Mary.md` file on GitHub.com.** Oops. There is a typo on line 2. We missed a space after the second comma.  
