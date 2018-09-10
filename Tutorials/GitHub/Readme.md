@@ -6,14 +6,13 @@ __A quick introduction to Git with GitHub Desktop__
 3. **Open up GitHub Desktop,** which provides a nice graphical user interface for executing Git commands and syncing your repositories with the GitHub website.
 4. **Make sure you are logged in to the same github account you are using for this class.**  
 ![GitHub Account](img/CheckGitHubLogin.png)  
-If you are in the wrong account then log out then log in accordingly.  
+If you are in the wrong account then log out and log in accordingly.  
 5. **Clone this repository from GitHub to your desktop.**  
 ![Clone repo to desktop](img/CloneToDesktop.png)  
 GitHub Desktop will ask where you want to save the new folder on your hard drive. Choose the `IS505` folder. The repository folder will then appear under GitHub.com in GitHub Desktop.
-REPLACE WITH SCREENSHOT WHEN READY
 6. **Open the folder in Atom (or an equivalent text editor).**  
 ![Open with Atom](img/OpenWithAtom.png)  
-To open directly from GitHub Desktop, right-click on the repository name and select `Open in Atom`. If you don't have Atom installed or Windows is not cooperating with GitHub Desktop then open another editor (note: MS Word in not an editor! VS Code is pretty good though) and navigate to your new repository folder.
+To open directly from GitHub Desktop, right-click on the repository name and select `Open in Atom`. If you don't have Atom installed or Windows is not cooperating with GitHub Desktop then open another editor (note: MS Word in not an editor! VS Code is pretty good though, and many prefer it to Atom) and navigate to your new repository folder.
 7. **Inside your folder, create a new file called `Mary.md` and paste the following text:**  
   ```  
   # Mary Had a Little Lamb  
