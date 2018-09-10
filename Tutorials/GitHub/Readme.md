@@ -59,7 +59,7 @@ To open directly from GitHub Desktop, right-click on the repository name and sel
 The circle is a "dirty file" indicator used to mark files with unsaved changes. If you are not using Atom, then you should see something similar for your editor (unless it is complete cr@p.)  
 9. **Save the file and note that the dirty file indicator goes away.**  
 ![Saved File](img/DirtyFileAfterSave.png)  
-Always look to make sure you don't have any dirty files before committing your changes in Git.
+Always look to make sure you don't have any dirty files before committing your changes in Git.  
 10. **Switch back to GitHub Desktop, where you should see the new file listed as changed.**  
 ![New file in GitHub Desktop](img/GitHubDesktopNewFile.png)   
 11. **Commit your changes with a `Summary` 'Added the Mary Had a Little Lamb nursery rhyme'.**  
