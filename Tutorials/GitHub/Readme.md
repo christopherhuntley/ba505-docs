@@ -53,8 +53,8 @@ To open directly from GitHub Desktop, right-click on the repository name and sel
   "Why, Mary loves the lamb, you know,"  
   The teacher did reply.
   ```
-  The text is written in Markdown, the text formatting language. GitHub helpfully parses `.md` files as Markdown and then renders them as web pages in your repository. If you have not already done so, plan to read through the [Markdown docs on GitHub](https://guides.github.com/features/mastering-markdown).
-8. ** *Before saving the file * take note of the blue circle next to the filename at the top.**  
+  The text is written in Markdown, the text formatting language. GitHub helpfully parses `.md` files as Markdown and then renders them as web pages in your repository. If you have not already done so, plan to read through the [Markdown docs on GitHub](https://guides.github.com/features/mastering-markdown).  
+8. **Before saving the file take note of the blue circle next to the filename at the top.**  
 ![Atom Dirty File Indicator](img/DirtyFileIndicatorAtom.png)  
 The circle is a "dirty file" indicator used to mark files with unsaved changes. If you are not using Atom, then you should see something similar for your editor (unless it is complete cr@p.)  
 9. **Save the file and note that the dirty file indicator goes away.**  
