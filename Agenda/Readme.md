@@ -1,13 +1,13 @@
-## September 4, 2018
-1. Introductions
-2. [Course Overview & Setup](../Slides/L0_Course_Introduction.pdf)
-3. [Python Preliminaries](../Slides/L1_Python_Preliminaries.slides.html)
-4. Classwork and Homework
-
-### Links
-* [Syllabus](../Syllabus.md)
-* [Anaconda](https://www.anaconda.com)
-* [GitHub Desktop](https://desktop.github.com)
-* [Atom](https://atom.io)
-* [Python 3 Reference Cheat Sheet](../Downloads/Python3_reference_cheat_sheet.pdf)
-* [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/ba505-docs)
+## September 11, 2018
+1. New Students Introduce Themselves
+   - Name, Nickname, Hometown
+   - Degrees and Professional Experience
+   - Something we can't tell from looking at you
+2. Report any lingering software problems
+3. [Python Language Essentials](../Slides/L2_Python_Essentials.slides.html)
+4. Classwork
+  - Complete "Basic Workflow" from DataCamp's **Introduction to Git for Data Science** course.
+  - Complete the [GitHub Tutorial](../Tutorials/GitHub) assignment.
+5. Homework
+  - Finish any remaining Classwork
+  - RSI 6-8

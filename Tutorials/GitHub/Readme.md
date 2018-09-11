@@ -3,7 +3,7 @@ __A quick introduction to Git with GitHub Desktop__
 
 1. **If you have not done so, please complete the "Basic Workflow" chapter of DataCamp's "Introduction to Git for Data Science" course.** The course explains how to use basic Git commands from a terminal window. For now, you only need to complete the 'Basic Workflow' chapter, but you may want to complete the other chapters on your own as homework.   
 2. **Log in to your GitHub account. ** If you have multiple accounts, make sure that it is the one associated with your @student.fairfield.edu address.
-3. **Click on the [GitHub Classroom Assignment](https://classroom.github.com/a/X6e0BLuN) link.** GitHub will 'fork' a copy of the `github-tutorial` repository from Dr. Huntley's GitHub account to your GitHub account. It is your copy, with full ownership permissions. The steps below will modify the files in the repository and publish the changes to GitHub.
+3. **Click on the [GitHub Classroom Assignment](https://classroom.github.com/a/X6e0BLuN) link.** After confirming that it knows who you are (as listed in the class roster), GitHub will 'fork' a copy of the `github-tutorial` repository from Dr. Huntley's GitHub account to your GitHub account. It is your copy, with full ownership permissions. The steps below will modify the files in the repository and publish the changes to GitHub.
 4. **Open up GitHub Desktop,** which provides a nice graphical user interface for executing Git commands and syncing your repositories with the GitHub website.
 5. **Make sure you are logged in to the same github account you are using for this class.**  
 ![GitHub Account](img/CheckGitHubLogin.png)  
