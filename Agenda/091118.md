@@ -6,8 +6,8 @@
 2. Report any lingering software problems
 3. [Python Language Essentials](../Slides/L2_Python_Essentials.slides.html)
 4. Classwork
-  - Complete "Basic Workflow" from DataCamp's **Introduction to Git for Data Science** course.
-  - Complete the [GitHub Tutorial](../Tutorials/GitHub) assignment.
+   - Complete "Basic Workflow" from DataCamp's **Introduction to Git for Data Science** course.
+   - Complete the [GitHub Tutorial](../Tutorials/GitHub) assignment.
 5. Homework
-  - Finish any remaining Classwork
-  - RSI 6-8
+   - Finish any remaining Classwork
+   - RSI 6-8
