@@ -12156,6 +12156,7 @@ ABCD
 <li><code>&lt;name&gt;</code> is the name of the function</li>
 <li><code>&lt;parameters&gt;</code> is a comma-delimited list of input variables  </li>
 <li>The indented block of <code>&lt;statements&gt;</code> comprise the <strong>body</strong> of the function</li>
+<li>Any variables are <strong>local</strong> to the function body and have no effect elsewhere.</li>
 </ul>
 
 </div>
@@ -12182,7 +12183,16 @@ ABCD
 
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>z</code> is a local variable and does not exist outside the function body.</p>
+
+</div>
+</div>
+</div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
