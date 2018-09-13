@@ -66,7 +66,7 @@ Given the large class enrollment and the technical nature of the subject, it is 
 | 9/11 | Python Language Primer | JupyerLab Practice <br> **DC** Git "Basic Workflow" | **DC** "Python Lists" <br>**RSI** 5-8 <br> *Study for Quiz 1* |
 | 9/18 | **Quiz 1: Foundations**<br>Control Flow: Blocks, Conditionals, and Loops<br>Code Structure: Packages, Modules, and Functions | Health Stats Part 1 | **DC** "Functions and Packages" <br>**RSI** 9,10,12|
 | 9/25 | Data Structures: Tuples, Strings, Lists, and Dictionaries <br> File I/O: Reading and Writing data|**RSI** 11 <br>Health Stats Part 2|*Study for Quiz 2*|
-| 10/2 |  **Quiz 2: Control Flow and Data Structures  ** <br> Data ETL: Extraction, Translation, Load| Web Scraping Project| **DC** "Cleaning Data with Python" <br>*Study for Quiz 3* |
+| 10/2 | **Quiz 2: Control Flow and Data Structures**<br>Data ETL: Extraction, Translation, Load| Web Scraping Project| **DC** "Cleaning Data with Python" <br>*Study for Quiz 3* |
 | 10/9 | *No class, extended Fall Break* | | |
 | 10/16 | **Quiz 3: Vanilla Python Scripts** <br> Numpy Basics | HealthStats Part 3| **DC** "NumPy"|
 | 10/23 | More NumPy| TBA | **DC** "Dictionaries and Pandas" |
