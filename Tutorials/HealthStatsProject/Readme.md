@@ -17,6 +17,9 @@ __You are encouraged to collaborate with your peers.__ However, you are also res
 * Perform calculations using the imported data
 
 ## Instructions
+0. __Get the starter code.__ Use the following GitHub Classroom link to fork a copy of the code to your GitHub account.  
+https://classroom.github.com/a/AoepiXrE  
+Then clone your copy to your desktop and open in JupyterLab. 
 1. __Take a few minutes to read about the [Waist to Hip Ratio](https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio).__ You should understand it well enough to explain it to your parents and walk them through doing the analysis on themselves.
 2. __Open the file `w2h_data.csv` and study the data in it, which is organized as a table in *comma separated value* (or CSV) format.__ A CSV file has data in rows and columns. Each line has the same columns in the same order, with each column separated from the next by a comma.  The first line has the column names (a.k.a. headings). The second line has the first row of data, with the next row below it, etc.  *We are going to use Jupyter to write a short report on Waist to Hip Ratios using examples from the `w2h_data.csv` file.*   
 3. __Launch Jupyter from Anaconda and open the file `HealthStatsPart1.ipynb` from within this repository.__ All the notebook cells are already provided, with comments used to provide instructions. Try to read through the code and make sense of what each section of the notebook is about.
