@@ -8,7 +8,7 @@
    - You will be required to agree to an honor pledge at the end of the quiz. Failure to comply with the terms of the pledge (otherwise known as "cheating") will result in immediate grade of F (and subsequent expulsion from the MS BA program). 
 3. [Program Structure and Flow Control](../Slides/L3_Static_Structure_and_Flow_Control.slides.html)
 4. Classwork
-   - Troubleshoot and lingering software problems
+   - Troubleshoot any lingering software problems
    - Complete Part 1 of the [HealthStats Project](https://github.com/christopherhuntley/ba505-docs/tree/master/Tutorials/HealthStatsProject). Do not continue on to Part 2 until next week. 
 5. Homework
    - Finish any remaining Classwork
