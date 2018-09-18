@@ -40,7 +40,10 @@ Email: chuntley@fairfield.edu
 ## Student Expectations
 This is a graduate class intended for serious professionals:
 * **Expect to spend at least 10 hours per week** attending class and completing your assignments.
-* **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter.
+* **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. In addition you will have to comply with the following pledge on any graded work: 
+> On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this [assignment].  
+
+  If you cannot comply then you will get an immediate F for the course. 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
 *If you cannot abide by these policies then please take another course.*
