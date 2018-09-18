@@ -54,7 +54,7 @@ Then clone your copy to your desktop and open in JupyterLab.
 ## Instructions
 1. __Open the `Part2.ipynb` file in Jupyter.__ The file already has the corrected Python code from the last class. Insert your Markdown from part 1 in the cells at the top. 
 2. __Scroll down to (and select) the cell that starts with `# Goal: Scrub and convert the data`__ This cell uses a list for each row of the table. In practice we would not do it that way. It's too easy to mess up the column indexes when trying to interpret each row. Is the `Waist` in column 1 or column 2?
-3. __From the `Run` menu, `Run All Above Selected Cell`.__ The markdown should render and the source data will be read from disk. 
+3. __From the `Run` menu, `Run All Above Selected Cell`.__ The markdown should render and the source data will be read from disk.  
 ![Run all above ...](img/P2_RunAllAbove.png)
 4. __Modify the scrubbing code so that each row is stored as a dictionary instead of a list.__ The dictionary keys should be 'ID', 'Waist', 'Hip', and 'Gender'. The `rows` variable should have a *list of dictionaries* instead of a list of lists.
 5. __In the Calculations section (a few cells down), modify the Python code so that it uses your the new dictionaries (instead of lists).__ You will need to know how to add the two new (key,value) pairs to each dictionary.
