@@ -4,7 +4,7 @@
    - Degrees and Professional Experience
    - Something we can't tell from looking at you
 2. [Quiz 1](https://docs.google.com/forms/d/e/1FAIpQLSdMotwfPEgL3j9wVq0WNwZYFU5bDY6h5b45snk0THQUHEA87A/viewform?usp=sf_link)
-   - Your browser window will need to be logged into your `@student.fairfield.edu` account before clicking the Quiz link. 
+   - Your browser window will need to be logged into your @student.fairfield.edu account before clicking the Quiz link. 
    - You will be required to agree to an honor pledge at the end of the quiz. Failure to comply with the terms of the pledge (otherwise known as "cheating") will result in immediate grade of F (and subsequent expulsion from the MS BA program). 
 3. [Program Structure and Flow Control](../Slides/L3_Static_Structure_and_Flow_Control.slides.html)
 4. Classwork
