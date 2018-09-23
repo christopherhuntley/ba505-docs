@@ -2,3 +2,4 @@
 * [L1 Preliminaries](L1_Python_Preliminaries.slides.html)
 * [L2 Python Essentials](L2_Python_Essentials.slides.html)
 * [L3 Static Structure and Flow Control](L3_Static_Structure_and_Flow_Control.slides.html)
+* [L4 Data Structures and Files](L4_Data_Structures_and_Files.slides.html)
