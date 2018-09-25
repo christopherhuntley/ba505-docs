@@ -13664,6 +13664,20 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Splitting/Joining-Strings">Splitting/Joining Strings<a class="anchor-link" href="#Splitting/Joining-Strings">&#182;</a></h1><p>We can split a delimited string into a list of items</p>
+<div class="highlight"><pre><span></span><span class="s2">&quot;a,b,c&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span> <span class="c1"># produces [&#39;a&#39;,&#39;b&#39;,&#39;c&#39;]</span>
+</pre></div>
+<p>We can also do the reverse, building a delimited string from a list of items.</p>
+<div class="highlight"><pre><span></span><span class="s2">&quot;,&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">])</span> <span class="c1"># produces &#39;a,b,c&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="String-Comparisons">String Comparisons<a class="anchor-link" href="#String-Comparisons">&#182;</a></h1><p>Many of the relational comparisons that apply to numbers also apply to strings using <strong>lexicographic ordering.</strong></p>
 
 </div>
