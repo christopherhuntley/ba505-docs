@@ -59,7 +59,7 @@ Then clone your copy to your desktop and open in JupyterLab.
 4. __Modify the scrubbing code so that each row is stored as a dictionary instead of a list.__ The dictionary keys should be 'ID', 'Waist', 'Hip', and 'Gender'. The `rows` variable should have a *list of dictionaries* instead of a list of lists.
 5. __In the Calculations section (a few cells down), modify the Python code so that it uses your the new dictionaries (instead of lists).__ You will need to know how to add the two new (key,value) pairs to each dictionary.
 6. __Modify the Output section to use dictionaries instead of lists.__ You saw this coming, right?
-7. __Now for a real challenge: Use Python to write the HTML table to a file called `StatsResults.html`.__ If you did this correctly, you should be able to open the file in a web browser and see the HTML table without Jupyter.
+7. __(Optional) Now for a real challenge: Use Python to write the HTML table to a file called `StatsResults.html`.__ If you did this correctly, you should be able to open the file in a web browser and see the HTML table without Jupyter.
 8. __Commit and sync your work to GitHub.__ For the commit summary comment use "Completed Part 2." 
 
 # Part 3: NumPy Structured Arrays
