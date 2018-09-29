@@ -2,15 +2,15 @@
 
 ## A Nasty Little Problem
 
-When choosing a subject for this tutorial, lots of potential problems domains were considered but it did not take long to settle on the one thing every MS BA student could relate to: just how horribly difficult it is to get basic schedule and curriculum information from the many, imperfect outlets provided by university staff and faculty. 
+When choosing a subject for this tutorial, lots of potential problem domains were considered but it did not take long to settle on the one thing every MS BA student could relate to: just how horribly difficult it is to get basic course schedule and curriculum information from the many, imperfect outlets provided by university staff and faculty. 
 
-__Course calendars are an unfortunate fact of university life.__ Every course has one. However, they are often buried in MS Word-formatted syllabuses (in typewriter font or, worse, written out as paragraphs) or perhaps on a class website (as a table), just like they were in 1996. 
+__Course calendars are an unfortunate fact of university life.__ Every course has one. However, they are often buried in MS Word-formatted syllabuses (in typewriter font or, worse, written out as paragraphs) or perhaps on a class website (as a table, if you're lucky), just like they were in 1996. 
 ![Calendar Table](img/CalendarTable.png)  
 
    They are vitually never found as calendars in the modern sense, where events can be browsed, queried, and updated using a calendaring app.   
 ![Calendar Events](img/CalendarEvents.png)  
    
-   While the details that one can include in the tabular formatted schedule are great, they are just not very useful when you get a text message inviting you to dinner on, say, October 9. Is that a holiday -- Fall Break, right? -- or do we have class that night? Hold on while I pull out MS Word to check ... It should be right there on your phone, complete with the ability for us to embellish with reminders, notes, and attachments.    
+   While the details that one can include in a syllabus are great, they are just not very useful when you get a text message inviting you to dinner on, say, October 9. Is that a holiday -- Fall Break, right? -- or do we have class that night? Hold on while I pull out MS Word to check ... It should be right there on your phone, complete with the ability for us to embellish with reminders, notes, and attachments.
    
    __Almost as bad as course calendars are course catalogs, which are similarly unsearchable and incovenient.__ A printed 300 page book? A 350 page PDF that is impossible to read on my phone? Really?  
 ![PDF Course Catalog](img/GradCatalogPDF.png)
@@ -20,7 +20,10 @@ __Course calendars are an unfortunate fact of university life.__ Every course ha
    
    Or, if it has information about course offerings then there is no course description. Ugh! Even the top-secret, you-gotta-have-a-password-to-see-it version is pretty cryptic and missing essential facts.
 ![BannerCourseLookup](img/BannerCourseLookup.png)   
-If we just restrict ourselves to publicly-available data, then we're mostly back to PDF files and google searches. For undergrad courses it's especially bad, with the official Schedule of Courses published several months in advance in a PDF booklet that changes format slightly from year to year. 
+Heck, even there week-by-week schedule data can't be trusted. The last I checked Monday, October 8 is for sure a holiday this year but of course we see this:
+![Week At AGlance](img/WeekAtAGlance.png)
+
+If we just restrict ourselves to publicly-available data, then we're mostly back to PDF files and Google searches. For undergrad courses it's especially bad, with the official *Schedule of Courses* published several months in advance in a PDF booklet that changes format slightly from year to year. 
 ![Booklet Cover](img/BookletCover.png)
 ![Booklet Inside Table](img/BookletTable.png)
 
