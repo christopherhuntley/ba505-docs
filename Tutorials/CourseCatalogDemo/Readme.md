@@ -10,4 +10,4 @@ __You are encouraged to collaborate with your peers.__ However, you are also res
 # Part 3: Web Scraping with Scrapy (forthcoming)
 # Part 4: HTML Parsing with Beautiful Soup (forthcoming)
 # Part 5: Generating Output for the Masses (forthcoming)
-# Part 6: Data Analysis with Pandas & Matplotlib.
+# Part 6: Data Analysis with Pandas & Matplotlib (forthcoming)
