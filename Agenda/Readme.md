@@ -7,4 +7,4 @@
    - Finish any remaining Classwork 
    - Complete Course Calendar Demo Part 2
    - Start DC "Cleaning Data in Python" course (due Oct 30)
-   - Study for Quiz 2 (posted online **October 9**)
+   - Quiz 2 (posted online **October 9**)
