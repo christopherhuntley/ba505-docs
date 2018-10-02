@@ -11951,6 +11951,20 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-Standard-Data-Types">The Standard Data Types<a class="anchor-link" href="#The-Standard-Data-Types">&#182;</a></h1><p><img src="img/L4_Standard_Data_Types.png" alt="Data Type Hierarchy"></p>
+<ul>
+<li>Built-in types work without an <code>import</code>. They are also reserved words!</li>
+<li>Specialized types require <code>import</code> but not an install.</li>
+<li>For more, RTFM the <a href="https://docs.python.org/3/library/datatypes.html">Python Standard Library docs</a></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Lists-(Data-Type-list)">Lists (Data Type <code>list</code>)<a class="anchor-link" href="#Lists-(Data-Type-list)">&#182;</a></h1><h2 id="For-managing-sequences-of-items">For managing sequences of items<a class="anchor-link" href="#For-managing-sequences-of-items">&#182;</a></h2>
 </div>
 </div>
@@ -14020,6 +14034,65 @@ a.anchor-link {
 </div>
 
 </div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="An-Aside-About-Keys-and-Hashing">An Aside About Keys and Hashing<a class="anchor-link" href="#An-Aside-About-Keys-and-Hashing">&#182;</a></h1><ul>
+<li>Keys must be <strong>unique</strong> and <strong>hashable</strong>. </li>
+<li>A <strong>hash function</strong> converts arbitrary data (numbers, strings, etc.) to a <strong>digest</strong> of fixed length. For example, let’s use the standard <code>md5</code> hash function on ‘Go Stags!’:</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;Go Stags!&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[105]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;59a060123aeddcba30023c46396aa5d8&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>If you've ever created a cryptographic certificate or RSA key, then you've seen a digest (or two).</li>
+<li>While digests are not guaranteed to be unique for every possible data, odds of duplicates are very low.</li>
+<li><strong>So what? Digests are used to make sure that the keys are unique (regardless of data type).</strong>  </li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
