@@ -58,7 +58,7 @@ __We will then produce four outputs:__
 - A CSV file with course descriptions and other catalog data
 - A JSON-formatted course list with instructors, timecodes, and other logistical information
 - A folder of ics (iCalendar) files, one per course, that can be imported into Google Calendar, Apple Calendar, etc. 
-- A report on class enrollments, teaching loads, etc. 
+- A report on class enrollments, room utilizations, etc. 
     
 ## The Next Several Weeks
 __The remainder of this tutorial will attack the problem in 6 parts, each focusing on a specific input and (possibly) an output or two.__
