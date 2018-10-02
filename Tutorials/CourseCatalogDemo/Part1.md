@@ -61,8 +61,8 @@ __We will then produce four outputs:__
 ## The Next Several Weeks
 __The remainder of this tutorial will attack the problem in 6 parts, each focusing on a specific input and (possibly) an output or two.__
 - Part 2: Working with Dirty PDF and CSV Files.
-- Part 3: Web Scraping with Scrapy.
-- Part 4: HTML Parsing and JSON generation with Beautiful Soup.
+- Part 3: Creating a Web Spider with Scrapy.
+- Part 4: HTML Scraping and JSON generation with Beautiful Soup.
 - Part 5: Generating Output for the Masses. 
 - Part 6: Data Analysis with Pandas & Matplotlib.
 
