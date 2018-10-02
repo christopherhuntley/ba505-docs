@@ -13792,10 +13792,13 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="String-Traversal-with-for-Loops">String Traversal with <code>for</code> Loops<a class="anchor-link" href="#String-Traversal-with-for-Loops">&#182;</a></h1><p>This works exactly like a tuple, list, or any other sequence:</p>
 <div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;ABC&quot;</span>
-<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>    <span class="c1"># use s like a tuple or list</span>
+<span class="c1"># use s like a tuple or list</span>
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>    
     <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)):</span> 
-        <span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+<span class="c1"># does the same thing but more verbose</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)):</span>  
+    <span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 </pre></div>
 <p>This should be no surprise since strings are just a special kind of sequence.</p>
 
