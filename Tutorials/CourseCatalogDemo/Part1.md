@@ -18,9 +18,9 @@ __Course calendars are an unfortunate fact of university life.__ Every course ha
    If you can find any course details online it is usually just a course description with only vague information about course offerings.  
 ![Web Course Descriptions](img/GradCourseDescriptions.png)   
    
-   Or, if it has information about course offerings then there is no course description. Ugh! Even the top-secret, you-gotta-have-a-password-to-see-it version is pretty cryptic and missing essential facts.
+   Or, if it has information about course offerings then there is no course description. Ugh! Even the top-secret, you-gotta-have-a-password-to-see-it version from Banner is pretty cryptic and missing essential facts.
 ![BannerCourseLookup](img/BannerCourseLookup.png)   
-Heck, even there week-by-week schedule data can't be trusted. The last I checked Monday, October 8 is for sure a holiday this year but of course we see this:
+Heck, even Banner's week-by-week schedule data can't be trusted. The last I checked Monday, October 8 is for sure a holiday this year but of course we see this:
 ![Week At AGlance](img/WeekAtAGlance.png)
 
 If we just restrict ourselves to publicly-available data, then we're mostly back to PDF files and Google searches. For undergrad courses it's especially bad, with the official *Schedule of Courses* published several months in advance in a PDF booklet that changes format slightly from year to year. 
