@@ -43,14 +43,16 @@ Oh, there it is ... scroll down to Fall break. It looks like Ocober 9 is a stude
 In the rant above we covered the following potential sources:
 - A faculty-authored syllabus for a specific course. Getting access to this on anything other than a course-by-course basis is likely impossible.
 - A course event calendar kept in the professor's preferred calendaring app. As with syllabuses, this is virtually impossible to get in bulk.
-- An online course catalog in PDF and web formats that does a decent job of describing each course but provides no calendaring information. These are both online and readily available to the public. However, there is no stable data interface, with precise formats and content subject to change at any moment. Even the URLs may change.  
-- A course information management system (Banner) with data that is available to Faculty and Staff but not to students. We can, however, use some ninja tricks to export HTML reports from the system. We'll then have to scrape the logistical information we need for each course from the HTML. 
+- An course catalog in PDF and web formats that does a decent job of describing each course but provides no calendaring information. These are both online and readily available to the public. However, there is no stable data interface, with precise formats and content subject to change at any moment. Even the URLs may change.  
+- A printable PDF booklet with (possibly-outdated) undergraduate course offerings. 
+- A course information management system (Banner) with data that is available to Faculty and Staff but not to students. We can, however, use some ninja tricks to export HTML reports from the system. We'll then have to scrape the logistical information we need for each course from the HTML.
+- The official online Academic Calendar that lists essential events throughout the year but requires a bit of interpretation to use. For example, what does "[Tuesday] Classes Operate on a Monday Schedule – All Schools (except Graduate Nursing)" mean? Do Tuesday classes meet or not? 
 
 __After lots of consideration, we will focus our explorations around the following data sources:__
  - The [PDF-formatted schedule booklet for undergraduate courses](201801CourseBooklet.pdf) (needed just in case a student needs a refresher before matriculating into the grad programs).
  - The [course catalog descriptions](http://catalog.fairfield.edu/courses/) on the university website.
  - A scraped [HTML copy of the Banner course enrollments report](Spring2018ClassSchedules.html). While not actually public, it is at least easily generated at the start of each semester. 
- - The [published academic calendar](AcademicCalendar2017_18.pdf), from which we can **manually** create scheduling rules for holidays and other exceptions to the published course schedules.
+ - The [published Academic Calendar](AcademicCalendar2017_18.pdf), from which we can **manually** create scheduling rules for holidays and other exceptions to the published course schedules.
 
 __We will then produce four outputs:__
 - A CSV file with course descriptions and other catalog data
