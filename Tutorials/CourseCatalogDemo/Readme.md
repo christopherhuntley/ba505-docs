@@ -6,8 +6,8 @@ This tutorial is a week-by-week walkthrough of an ETL project from start to fini
 __You are encouraged to collaborate with your peers.__ However, you are also responsible for learning each week's key lessons. So, if you need help understanding something, just ask! If you know how to help someone (without doing the work for them), then please help them out.
 
 # [Part 1: Setting the Stage](Part1.md)
-# Part 2: Working with Dirty PDF and CSV Files (forthcoming)
+# [Part 2: Working with Dirty PDF and CSV Files](Part2.ipynb)
 # Part 3: Creating a Web Spider with Scrapy (forthcoming)
 # Part 4: HTML Scraping and JSON generation with Beautiful Soup (forthcoming)
 # Part 5: Generating Output for the Masses (forthcoming)
-# Part 6: Data Analysis with Pandas & Matplotlib (forthcoming)
+# Part 6: Data Analysis with Pandas, NumPy & Matplotlib (forthcoming)
