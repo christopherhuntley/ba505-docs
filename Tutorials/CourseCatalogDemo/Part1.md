@@ -66,7 +66,7 @@ __The remainder of this tutorial will attack the problem in 6 parts, each focusi
 - Part 3: Creating a Web Spider with Scrapy.
 - Part 4: HTML Scraping and JSON generation with Beautiful Soup.
 - Part 5: Generating Output for the Masses. 
-- Part 6: Data Analysis with Pandas & Matplotlib.
+- Part 6: Data Analysis with Pandas, NumPy & Matplotlib.
 
 The remaining parts will be released as they become available over the next few weeks. You are not expected to code (much) but instead observe, learn, and apply what you know to your term project. 
 
