@@ -45,7 +45,7 @@ flds = {
     'title':re.compile('(.+)')
 }
 
-def parse_table_row(row,date_range):
+def parse_table_row(row):
     ''' Parse one row of tabula data; each row is a column-wise list of strings'''
 
     course_spec = {}
@@ -82,23 +82,20 @@ def parse_table_row(row,date_range):
     unparsed = flds['tags'].sub('',unparsed)
 
     course_spec['timecodes']=flds['timecode'].findall(unparsed) # list of timecodes
-    if date_range:
-        for i in range(len(course_spec['timecodes'])):
-            course_spec['timecodes'][i] += " "+date_range
     unparsed = flds['timecode'].sub('',unparsed)
 
     course_spec['instructor']=unparsed.strip() # remainder, minus extra whitespace
 
     return course_spec
 
-def scrape_undergrad_course_booklet(filename,date_range=''):
+def scrape_undergrad_course_booklet(filename):
     ''' Parse a course booklet that has been exported as a CSV from Tabula.'''
     with open(filename, newline='') as csvfile:
         linereader = csv.reader(csvfile)
         course_specs =[]
         for row in linereader:
             if not row[0].startswith('CRN'):
-                course_spec = parse_table_row(row,date_range)
+                course_spec = parse_table_row(row)
                 if 'crn' in course_spec:
                     # add the new course_spec
                     course_specs += [course_spec]
