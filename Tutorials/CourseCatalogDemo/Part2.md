@@ -266,7 +266,7 @@ The last line of the module is commented out. It was used to run the code direct
 # print(scrape_undergrad_course_booklet('tabula-201801CourseBooklet.csv','01/16-05/01'))
 ```
 __8. Wrapping up: Running the code within a Notebook.__  
-Since the code is in a module, we can call it directly within our notebooks. We can even feed it new data (e.g., for this semester) by setting the `filename` and `date_range`. Here is what it generates (which should look familiar to any practiced web developer as JSON, the defacto data standard for web service APIs) ...
+Since the code is in a module, we can call it directly within our notebooks. We can even feed it new data (e.g., for this semester) by setting the `filename` and `date_range`. Here is what it generates (which should look familiar to any practiced web developer as JSON) ...
 
 **Code (cell)**
 ```python
