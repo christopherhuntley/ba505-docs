@@ -117,7 +117,7 @@ Currently works for the Spring 2018 Course Booklet.
 
 """
 ```
-Doc comments are always triple-quoted and start on the first non # commented line of code. They are used by special software to generate documentation for developers. See an example [here in the Python docs](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop.html).  
+Doc comments are always triple-quoted and start on the first non # commented line of code. They are used by special software to generate documentation for developers. See an example [here in the Python docs](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop.html). (Top-secret pro tip: To see the [actual source code](http://github.com/pandas-dev/pandas/blob/v0.23.4/pandas/core/frame.py#L3576-L3697) for anything in the Python, Numpy, or Pandas docs, just click the "source" link in the upper right-hand corner of the docs page.)   
 
 __3. Imports.__  
 To make them easy to find, we always import external modules just after the top comments. 
