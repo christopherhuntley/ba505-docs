@@ -13,3 +13,5 @@
        - "Dictionaries and pandas" chapter
        - [Regular Expressions Tutorial](https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial) (optional)
    - Practice, practice, practice with more practice problems
+   
+[GitHub Pages Link](https://christopherhuntley.github.io/ba505-docs/Agenda/)
