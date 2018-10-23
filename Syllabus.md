@@ -72,8 +72,8 @@ Given the large class enrollment and the technical nature of the subject, it is 
 | 10/2 | Data Structures: Tuples, Strings, Lists, and Dictionaries <br> File I/O: Reading and Writing data | Course Catalog  Part 1 <br> Health Stats Part 2| *Study for Quiz 2*  |
 | 10/9 | **Quiz 2: Control Flow and Data Structures (due by Oct 10)**  | *No class, extended Fall Break*  |  Course Catalog Part 2  |
 | 10/16 | Numpy Basics | HealthStats Part 3 | **DC** "NumPy" <br>*Study for Quiz 3*|
-| 10/23 | **Quiz 3: Vanilla Python Scripts** <br>pandas DataFrames & I/O| Course Catalog Part 3 | **DC** "Dictionaries and Pandas" |
-| 10/30 | Using pandas and NumPy | HealthStats Part 4 <br> Course Catalog Part 4 | **DC** "Logic, Control Flow, and Filtering," "Loops"|
+| 10/23 | **Quiz 3: Vanilla Python Scripts** <br>pandas DataFrames & I/O| Course Catalog Part 3 | **DC** "Dictionaries and Pandas" <br> [DataCamp Regular Expressions Tutorial](https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial) |
+| 10/30 | Using pandas and NumPy | HealthStats Part 4 <br> Course Catalog Part 4 | **DC** "Logic, Control Flow, and Filtering," "Loops" |
 | 11/6 | **Quiz 4: NumPy and Pandas** | No class due to INFORMS conference trip | Course Catalog Part 6 <br>**DC** "Matplotlib," "Case Study: Hacker Statistics" |
 | 11/13 | Matplotlib <br>Time Series | HealthStats Part 5 <br>Course Catalog Part 6 | **DC** "Importing Data with Pandas," "pandas Foundations" course (as prep/review for Quiz 5)  |
 | 11/20 | **Quiz 5: Putting it all together** | Project Kickoff | **DC** "Manipulating DataFrames with Pandas" |
