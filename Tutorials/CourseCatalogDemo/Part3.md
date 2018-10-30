@@ -55,6 +55,7 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
    Follow the `name = scrapy.Field()` pattern given in the comments to add the following fields (just above the `pass` statement):
    - catalogid
    - title
+   - credits
    - attributes
    - prereqs
    - coreqs
