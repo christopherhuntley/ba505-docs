@@ -199,15 +199,15 @@ cd catalog; scrapy crawl catalog -o catalog.csv
 ```
 The hashbang tells the terminal that the script is written in bash, giving the absolute file path to the bash executable. 
 
-    Next, in the terminal give the bash permission to execute the file as follows:
+Next, in the terminal give the bash permission to execute the file as follows:
 ```bash
 chmod +x catalogcrawl.sh
 ```
-    Running the script is then as easy as typing in the terminal window. 
+Running the script is then as easy as typing in the terminal window. 
 ```bash
 ./catalogcrawl.sh
 ```
-    Wanna run the spider every night at, say 2am, to refresh the data? Use `cron` to schedule a call our new shell script. That's well beyong the scope of this class, so [RTFM](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf) on your own for that. 
+Wanna run the spider every night at, say 2am, to refresh the data? Use `cron` to schedule a call our new shell script. That's well beyong the scope of this class, so [RTFM](https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf) on your own for that. 
 
 __3. Deploying to Production Environments__  
 Scrapy supports a couple of canned servers for production environments: 
