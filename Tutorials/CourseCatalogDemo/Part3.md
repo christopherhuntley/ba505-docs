@@ -174,12 +174,12 @@ Now for the meat of the class: the `.parse_program()` method that will do the ac
 ## Running/Testing and Deployment
 __1. Running from a `bash` command line__  
 
-    To run the spider type the following from within the `catalog` folder.
-    ```bash
-    scrapy crawl catalog -o catalog.csv
-    ```   
+To run the spider type the following from within the `catalog` folder.
+```bash
+scrapy crawl catalog -o catalog.csv
+```   
         
-    Of course, you could have a bug. Did you find a `catalog.csv` file? If so, open it. Does it have what you expect? Compare what's in the file with the online catalog. If not, you may have a bug in your code. Fix it. 
+Of course, you could have a bug. Did you find a `catalog.csv` file? If so, open it. Does it have what you expect? Compare what's in the file with the online catalog. If not, you may have a bug in your code. Fix it.  
     
 __2. Running within a `bash` script__  
 We can run bash commands from a file and even execute the script from the terminal. Create a new file named `catalogcrawl.sh` in the root of this repository. Then paste in the following bash code:
