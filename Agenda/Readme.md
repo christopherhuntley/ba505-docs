@@ -1,17 +1,18 @@
-## October 23, 2018
-1. Announcements: yet more syllabus changes!
-2. (Yue Pu) JupyterHub for everyone! (We'll need that for the Walkthrough below.)
-3. [Quiz 3](https://docs.google.com/forms/d/e/1FAIpQLSfY8iDEENEzit3ZwCIRupSqK0lPZtKkWNP4GyGZODMzH7fB5w/viewform?usp=sf_link)
-4. Quiz 2 Results
-5. [Intro to Pandas](../Slides/L6_Pandas_DataFrames.slides.html)
-6. Classwork
-   - Each student: demo at least one practice problem you completed for Quiz 3
-   - The [Course Schedules Part 2 Walkthrough](https://classroom.github.com/a/6wzapF8O) (a GitHub Classrom invitation)
+## October 30, 2018
+1. Announcements
+    - Check your DataCamp Assignments
+    - Term Projects Assigned Next Week
+    - Quiz 4
+2. Quiz 3 results
+3. [Pandas with Numpy](../Slides/L7_Using_Pandas_and_Numpy.slides.html)
+4. Classwork
+   - [Course Schedules Part 3](../Tutorials/CourseCatalogDemo/Part3.md)
+   - [Health Stats]((../Tutorials/HealthStatsProject)) Part 4
 7. Homework
-   - DataCamp:
-       - "Cleaning Data in Python" course
-       - "Dictionaries and pandas" chapter
-       - [Regular Expressions Tutorial](https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial) (optional)
-   - Practice, practice, practice with more practice problems
+   - Any remaining classwork from tonight
+   - Data Camp
+       - "Logic, Control Flow, and Filtering" chapter
+       - "Loops" chapter
+   - Study for Quiz 4 (Pandas & Numpy)
    
 [GitHub Pages Link](https://christopherhuntley.github.io/ba505-docs/Agenda/)
