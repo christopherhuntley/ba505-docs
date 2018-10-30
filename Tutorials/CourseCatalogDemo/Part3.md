@@ -91,7 +91,7 @@ Don't forget to save the file after editing.
 
     Add a new file called `catalog_spider.py` to the `spiders` folder. Within the file, follow the pattern given in the [Scrapy tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html#our-first-spider) to create a new class called `CatalogSpider`:
 
-    ```python
+```python
     import scrapy
     
     class CatalogSpider(scrapy.Spider):
@@ -149,15 +149,14 @@ Don't forget to save the file after editing.
                     'attributes':extras['attributes'],
                     'description':description
                 }
-    ```
+```
+   Let's take each of the methods one by one to understand what they are supposed to do. It's okay if you don't get the code exactly. You can come back later if you need to create a spider of your own. Instead, focus on the concepts illustrated here. 
 
-    Let's take each of the methods one by one to understand what they are supposed to do. It's okay if you don't get the code exactly. You can come back later if you need to create a spider of your own. Instead, focus on the concepts illustrated here. 
+   The `.start_requests()` method starts the process by crawling any pages in the `urls` list. In this case we are starting with http://catalog.fairfield.edu/courses, which links to course descriptions for every course in the catalog. For each of our starter URls, we use a [yield statement](https://docs.python.org/3/howto/functional.html#generators) to generate a `Request` object that i) visits the URL and then ii) calls the `.parse()` method with the resulting HTML. In other words, the method parses the 'http://catalog.fairfield.edu/courses/' page and returns any  `CatalogItem` data it scraped along the way.  
 
-    The `.start_requests()` method starts the process by crawling any pages in the `urls` list. In this case we are starting with http://catalog.fairfield.edu/courses, which links to course descriptions for every course in the catalog. For each of our starter URls, we use a [yield statement](https://docs.python.org/3/howto/functional.html#generators) to generate a `Request` object that i) visits the URL and then ii) calls the `.parse()` method with the resulting HTML. In other words, the method parses the 'http://catalog.fairfield.edu/courses/' page and returns any  `CatalogItem` data it scraped along the way.  
+   The `.parse()` method is responsible for reading the HTML on a page (as given by the `response` parameter). In our case, the method i) makes a list of all the links found on the page and then ii) follows each link, one by one, to generate (yield) `CatalogItem` data. The course descriptions are organized, one page per academic area (program). For example, the http://catalog.fairfield.edu/courses/ac page lists every accounting course in the catalog. 
 
-    The `.parse()` method is responsible for reading the HTML on a page (as given by the `response` parameter). In our case, the method i) makes a list of all the links found on the page and then ii) follows each link, one by one, to generate (yield) `CatalogItem` data. The course descriptions are organized, one page per academic area (program). For example, the http://catalog.fairfield.edu/courses/ac page lists every accounting course in the catalog. 
-
-    Now for the meat of the class: the `.parse_program()` method that will do the actual scraping of the `CatalogItem` data for a given academic program page. It is called at the very end of the `.parse()` method. To fully make sense of this code you will need to know something about HTML and CSS. However, we can infer a lot with a few educated guesses. **Take a read through and see if you explain it to your tablemates.**
+   Now for the meat of the class: the `.parse_program()` method that will do the actual scraping of the `CatalogItem` data for a given academic program page. It is called at the very end of the `.parse()` method. To fully make sense of this code you will need to know something about HTML and CSS. However, we can infer a lot with a few educated guesses. **Take a read through and see if you explain it to your tablemates.**
     
 ## Running/Testing and Deployment
 __1. Running from a `bash` command line__  
