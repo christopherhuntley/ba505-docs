@@ -9,18 +9,27 @@
 * Writing and running a bash script from the command line
 
 ## Creating a Scrapy Project
-1. [Scrapy](https://scrapy.org/) is a third-party library for creating and running *web spiders*. A web spider is a program that can browse whole websites, page by page, by following links. On each page the spider can collect data for processing later. The most famous web spider today is used by Google to discover and catalog the web for search. 
-2. Start JupyterLab and launch a new Terminal. 
-3. **If you are using JupterHub then you can skip this step (but read on anway).** If you are using Anaconda to run Jupyter on your desktop, then you will need to install Scrapy before you can use it. In the terminal type the following command:
+__1. Learn about Scrapy.__  
+[Scrapy](https://scrapy.org/) is a third-party library for creating and running *web spiders*. A web spider is a program that can browse whole websites, page by page, by following links. On each page the spider can collect data for processing later. The most famous web spider today is used by Google to discover and catalog the web for search. 
+__2. Get ready to do some work.__   
+Start JupyterLab and launch a new Terminal.   
+
+Fork the project from GitHub Classroom:
+https://classroom.github.com/a/qpM6KZsu
+Then clone it to your JupyterLab home folder.  
+
+__3. Install Scrapy.__  
+**If you are using the class JupterHub then you can skip this step (but read on anway).** If you are using Anaconda to run Jupyter on your desktop, then you will need to install Scrapy before you can use it. In the terminal type the following command:
 ```bash
 pip install scrapy
 ```
 `pip` is a package manager for Python. It's job is to install things from the 'usual' places. It is the equivalent of the app store for Macs or Google Play for android phones or ChromeOS. If the package you want to install requires other things to work, then `pip` install those too. It also warns you of potential incompatibilities, where two packages expect (and depend on) different versions of a third package. 
-4. Fork the project from GitHub Classroom:
-https://classroom.github.com/a/qpM6KZsu
-Then clone it to your JupyterLab home folder. 
-5. In the Terminal, use the `cd` command to navigate to your new repository folder. [From here on we are going to work from the instructions given in the [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html). Open it so you you can compare. We will be making a few minor tweaks to suit our needs.]
-6. Create a new Scrapy project as follows:
+ 
+__4. Create a new Scrapy project.__  
+
+In the Terminal, use the `cd` command to navigate to your new repository folder. [From here on we are going to work from the instructions given in the [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html). Open it so you you can compare. We will be making a few minor tweaks to suit our needs.]
+
+The following will create a new Scrapy project folder:
 ```bash
 scrapy startproject catalog
 ```  
