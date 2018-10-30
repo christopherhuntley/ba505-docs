@@ -64,7 +64,6 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
     
   When you are done delete the `pass` statement that was acting as a placeholder for your new code.  
   How did you do? The finished code should look like this:
-
     ```python
     # -*- coding: utf-8 -*-
     
