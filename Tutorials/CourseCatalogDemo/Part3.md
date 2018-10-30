@@ -203,7 +203,7 @@ Next, in the terminal give the bash permission to execute the file as follows:
 ```bash
 chmod +x catalogcrawl.sh
 ```
-Running the script is then as easy as typing in the terminal window. 
+Running the script is then as easy as typing the following in the terminal window. 
 ```bash
 ./catalogcrawl.sh
 ```
