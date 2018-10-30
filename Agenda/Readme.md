@@ -7,7 +7,7 @@
 3. [Pandas with Numpy](../Slides/L7_Using_Pandas_and_Numpy.slides.html)
 4. Classwork
    - [Course Schedules Part 3](../Tutorials/CourseCatalogDemo/Part3.md)
-   - [Health Stats]((../Tutorials/HealthStatsProject)) Part 4
+   - [Health Stats](../Tutorials/HealthStatsProject/Readme.md) Part 4
 7. Homework
    - Any remaining classwork from tonight
    - Data Camp
