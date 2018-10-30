@@ -53,13 +53,13 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
    For more about scrapy `Item` classes, go to https://doc.scrapy.org/en/latest/topics/items.html. In our case, each `CatalogItem` is a course in the online catalog. 
 
    Follow the `name = scrapy.Field()` pattern given in the comments to add the following fields (just above the `pass` statement):
-    - catalogid
-    - title
-    - attributes
-    - prereqs
-    - coreqs
-    - fees
-    - description   
+   - catalogid
+   - title
+   - attributes
+   - prereqs
+   - coreqs
+   - fees
+   - description   
     
   When you are done delete the `pass` statement that was acting as a placeholder for your new code.  
   How did you do? The finished code should look like this:
