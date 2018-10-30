@@ -86,7 +86,7 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
         fees = scrapy.Field()
         description = scrapy.Field()
     ```
-Don't forget to save the file after editing. 
+Don't forget to save the file after editing.   
 3. Now we need to create the spider that will browse the website and scrape out CatalogItems for us. For that we'll need to delve down into the `spiders` folder, which is currently empty except for a blank `__init__.py` file.
 
     Add a new file called `catalog_spider.py` to the `spiders` folder. Within the file, follow the pattern given in the [Scrapy tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html#our-first-spider) to create a new class called `CatalogSpider`:
