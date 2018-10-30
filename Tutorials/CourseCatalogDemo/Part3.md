@@ -50,9 +50,9 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
     From the docs:
 > The main goal in scraping is to extract structured data from unstructured sources, typically, web pages. Scrapy spiders can return the extracted data as Python dicts. While convenient and familiar, Python dicts lack structure: it is easy to make a typo in a field name or return inconsistent data, especially in a larger project with many spiders.
 
-    For more about scrapy `Item` classes, go to https://doc.scrapy.org/en/latest/topics/items.html. In our case, each `CatalogItem` is a course in the online catalog. 
+   For more about scrapy `Item` classes, go to https://doc.scrapy.org/en/latest/topics/items.html. In our case, each `CatalogItem` is a course in the online catalog. 
 
-    Follow the `name = scrapy.Field()` pattern given in the comments to add the following fields (just above the `pass` statement):
+   Follow the `name = scrapy.Field()` pattern given in the comments to add the following fields (just above the `pass` statement):
     - catalogid
     - title
     - attributes
@@ -61,7 +61,7 @@ Scrapy will confirm with a few lines of explanatory text with the project name, 
     - fees
     - description   
     
-  When you are done delete the `pass` statement that was acting as a placeholder for you new code.  
+  When you are done delete the `pass` statement that was acting as a placeholder for your new code.  
   How did you do? The finished code should look like this:
 
     ```python
