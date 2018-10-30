@@ -16,3 +16,5 @@
    - Study for Quiz 4 (Pandas & Numpy)
    
 [GitHub Pages Link](https://christopherhuntley.github.io/ba505-docs/Agenda/)
+
+Stuart is funny looking
