@@ -105,9 +105,9 @@ Now we need to create the spider that will browse the website and scrape out Cat
 Add a new file called `catalog_spider.py` to the `spiders` folder. Within the file, follow the pattern given in the [Scrapy tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html#our-first-spider) to create a new class called `CatalogSpider`:
 
 ```python
-    import scrapy
+import scrapy
     
-    class CatalogSpider(scrapy.Spider):
+class CatalogSpider(scrapy.Spider):
         name = "catalog"
     
         def start_requests(self):
