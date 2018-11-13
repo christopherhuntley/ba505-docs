@@ -6,4 +6,4 @@
 * [L5 NumPy](L5_NumPy_Arrays.slides.html)
 * [L6 pandas](L6_Pandas_DataFrames.slides.html)
 * [L7 Using pandas and NumPy](L7_Using_Pandas_and_Numpy.slides.html)
-* L8 matplotlib (forthcoming)
+* [L8 Matplotlib](L8_Matplotlib.slides.html)
