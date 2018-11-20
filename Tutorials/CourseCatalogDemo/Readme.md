@@ -9,5 +9,5 @@ __You are encouraged to collaborate with your peers.__ However, you are also res
 # [Part 2: Working with Dirty PDF and CSV Files](Part2.md)
 # [Part 3: Creating a Web Spider with Scrapy](Part3.md)
 # [Part 4: HTML Scraping and JSON generation with Beautiful Soup](Part4.md)
-# Part 5: Generating Output for the Masses (forthcoming)
+# Part 5: Data Normalization and Publication (forthcoming)
 # Part 6: Data Analysis with Pandas, NumPy & Matplotlib (forthcoming)
